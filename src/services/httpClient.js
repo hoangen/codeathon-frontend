@@ -50,16 +50,12 @@ export default class HttpClient {
     }
 
     postAsMultiPartForm(endpoint, headers, body) {
-        debugger
         var _headers = { ...headers }
         var _body = body
 
         return Rx.Observable.ajax
             .post(endpoint, _body, _headers)
-            .map(resp => {
-                debugger
-                resp.response
-            })
+            .map(resp => resp.response)
     }
 
     /**

@@ -10,12 +10,25 @@ import ActionFactory from "../actions/actionFactory";
 const predictSearchEpic = (action$, store) =>
     action$.ofType(ActionType.GET_PREDICT_DATA_LIST)
     .mergeMap(action => {
-            let state = action.payload;
+            let formData = action.payload;
 
-            let formData = state;
             return new PredictService(store.dispatch).predictSearch(formData)
-                .map(okResp => ActionFactory.create(ActionType.GET_PREDICT_DATA_LIST_SUCCESS, okResp))
-                .catch(error => ActionFactory.create(ActionType.GET_PREDICT_DATA_LIST_ERROR, error))
+                .map(resp => ActionFactory.create(ActionType.GET_PREDICT_DATA_LIST_SUCCESS, resp))
+                // .catch(error => ActionFactory.create(ActionType.GET_PREDICT_DATA_LIST_ERROR, error))
+                // .map(resp =>
+                //     resp)
+                // .map(({ dataList }) =>
+                //     (dataList &&
+                //         dataList.reduce((acc, cur) => ({ ...acc, ...{ [cur.key]: cur.value } }), {})) ||
+                //     {})
+                // .map(resp => {
+                //     debugger
+                //     store.getState().setState({dataList: resp})
+                //     // mapObjectResponseToStateData(resp, store.getState())
+                //     }
+                //
+                // )
+                // .map(dataList => ({data: dataList}))
         }
     )
 
@@ -38,13 +51,18 @@ const predictSearchEpic = (action$, store) =>
 //     return CacheUtils.handleRequest(fetchConfig, CacheUtils.LOCAL_STORAGE_KEY_GET_DATA_CONFIG)
 // }
 //
-// const mapObjectResponseToLocalData = (data) => ({
-//     dataList: [{
-//         data_1: data['data_1'] || "data1",
-//         data_2: Number(data['data_2']) || 222,
-//         data_3: Number(data['data_3']) || 333
-//     }]
-// })
+
+const mapObjectResponseToStateData = (data, state) => ({
+
+})
+
+const mapObjectResponseToLocalData = (data) => ({
+    dataList: [{
+        data_1: data['data_1'] || "data1",
+        data_2: Number(data['data_2']) || 222,
+        data_3: Number(data['data_3']) || 333
+    }]
+})
 //
 // const useDataDefault = (data = useDataDefault) => data
 

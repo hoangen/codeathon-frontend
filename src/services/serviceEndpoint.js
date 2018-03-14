@@ -8,7 +8,7 @@ export const Endpoint = {
   CREATE_CUSTOMER: 'customers/createinformation',
   SETTING_CONFIGURATION: 'settings/configurations',
   REVOKE_CUSTOMER_SESSION: 'session/finalize',
-  PREDICT_DATA_ENDPOINT: "predict",
+  PREDICT_DATA_ENDPOINT: "predict/file",
   UPLOAD_MODEL_FILE_ENDPOINT: "model/upload"
 }
 export const GeneralEndpoint = {

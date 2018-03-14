@@ -27,18 +27,17 @@ class PredictFormComponent extends React.Component {
         debugger
         e.preventDefault();
         var formData = new FormData();
-        formData.append('file', e.target.file);
-        formData.append('name', "aaaa");
-
-        for (var pair of formData.entries()) {
-            console.log(pair[0]+ ', ' + pair[1]);
+        var file = document.getElementById("file").files[0];
+        if(file) {
+            formData.append('file', file);
+            this.props.callPredictSearch(formData);
         }
-        this.props.callPredictSearch(formData);
+        return;
     }
 
     render () {
         return (
-            <form onSubmit={this.handleSubmit}>
+            <form  encType="multipart/form-data" onSubmit={this.handleSubmit}>
                 <div id='stepPersonalInformation' className='step-content'>
                     <div className='container'>
                         <div className="row margin-bottom-10 margin-top-30">
@@ -47,7 +46,7 @@ class PredictFormComponent extends React.Component {
                         <div className="row">
                             <div className="col-sm-6 col-xs-12 margin-bottom-30">
                                 <label className="gray-small-text margin-bottom-10">Please update file data searching</label>
-                                <input type="file" className="form-control-file" name="file" id="file"/>
+                                <input type="file" className="form-control-file" name="file" id="file" required/>
                             </div>
                         </div>
                         <div className='row'>

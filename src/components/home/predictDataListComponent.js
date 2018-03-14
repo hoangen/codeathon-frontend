@@ -11,25 +11,27 @@ const mapStateToProps = (state, props) => {
 
 const PredictionDataList = ({predictDataList}) => {
     console.log("value" + predictDataList.length)
+    debugger
     return (
             <div className="row margin-bottom-10 margin-top-30">
-
                 <table className="table table-striped">
                     <thead>
+                    {predictDataList.length > 0 &&
                     <tr>
                         <th scope="col">#</th>
-                        <th scope="col">Name</th>
-                        <th scope="col">Transaction</th>
-                        <th scope="col">Status</th>
+                        <th scope="col">Age</th>
+                        <th scope="col">Occupation</th>
+                        <th scope="col">Fraud</th>
                     </tr>
+                    }
                     </thead>
                     <tbody>
                     {predictDataList.length > 0 && predictDataList.map((item, index) => (
-                        <tr key={index}>
+                        <tr key={index} style={{color : item.fraud == 1 && 'red'}}>
                             <th scope="row">{++index}</th>
-                            <td>{item.name}</td>
-                            <td>{item.transaction}</td>
-                            <td>{item.status ? "0" : "1"}</td>
+                            <td>{item.age}</td>
+                            <td>{item.occupation}</td>
+                            <td>{item.fraud}</td>
                         </tr>
                     ))}
                     </tbody>

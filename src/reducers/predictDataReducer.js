@@ -1,17 +1,7 @@
 import ActionType from '../actions/actionType'
 
 const initialState = {
-    dataList:  [
-    {
-        "name" : "Test 1",
-        "transaction": "PT Bank Commonwealth",
-        "status": true
-    },
-    {
-        "name" : "Test 2",
-        "transaction": "CBSA",
-        "status": false
-    }]
+    dataList:  []
 }
 
 const predictDataReducer = (state = initialState, action) => {
