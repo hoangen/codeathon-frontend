@@ -19,9 +19,13 @@
 
 ## Build
 
-*Prequisite*: Node JS latest version
+*Prerequisite*: Node JS version >= 7.10.x
 
 To install all dependencies
+
+```
+$ cd codeathon-frontend
+```
 
 ```
 $ npm install
@@ -36,30 +40,11 @@ $ npm start
 To start the development server and point to a specific environment (for those who's using Unix*)
 
 ```
-$ REACT_APP_SVC_BASE_URL=http://localhost:8181 npm start
+$ REACT_APP_SVC_BASE_URL=http://<backend_ip_address>:5001 npm start
 ```
 
 To start the development server and point to specific environment (for those who's using Windows)
 
 ```
-$ set REACT_APP_SVC_BASE_URL=http://localhost:8181&&npm start
+$ set REACT_APP_SVC_BASE_URL=http://<backend_ip_address>:5001&&npm start
 ```
-
-To start the test runner
-
-```
-$ npm test
-```
-
-To build the website in release mode
-```
-$ npm run build
-```
-
-## Deploy
-
-TBD
-
-## Troubleshooting
-
-TBD
