@@ -36,23 +36,23 @@ class ModelFormComponent extends React.Component {
                 <div id='stepPersonalInformation' className='step-content'>
                     <div className='container'>
                         <StatusComponent/>
-                        <div className="row margin-bottom-10">
+                        <div className="row margin-bottom-30">
                             <h1 className="align-center">Model Management</h1>
                         </div>
                         <div className="row">
-                            <div className="col-sm-6 col-xs-12">
+                            <div className="col-sm-6 col-xs-12" style={{float: 'right'}}>
                                 <div className="form-group">
                                     <label className="gray-small-text" style={{marginBottom: '10px'}}>Please upload new model</label>
-                                    <input type="file" className="form-control-file" name="file" id="file" required/>
+                                    <input type="file" className="custom-file-input" name="file" id="file" required/>
                                 </div>
                                 <div className="form-group">
-                                    <div className='row margin-top-30'>
+                                    <div className='margin-top-30'>
                                         <button type='submit' className='btn btn-blue' id='nextToStepWorkInformation'>Upload New Model</button>
                                     </div>
                                 </div>
                             </div>
 
-                            <div className="col-sm-6 col-xs-12">
+                            <div className="col-sm-6 col-xs-12" style={{float: 'right'}}>
                                 <div className="form-group">
                                     <label className="gray-small-text" >Please download model</label>
                                 </div>
