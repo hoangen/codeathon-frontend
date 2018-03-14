@@ -28,8 +28,8 @@ class ModelFormComponent extends React.Component {
         var formData = new FormData();
         var file = document.getElementById("file").files[0];
         // formData.append('file', e.target.file);
-        // formData.append('file', file);
-        formData.append('file', new Blob(['test payload'], { type: 'text/csv' }));
+        formData.append('file', file);
+        // formData.append('file', new Blob(['test payload'], { type: 'text/csv' }));
 
 
         // for (var pair of formData.entries()) {

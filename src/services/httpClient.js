@@ -52,7 +52,7 @@ export default class HttpClient {
     postAsMultiPartForm(endpoint, headers, body) {
         debugger
         var _headers = { ...headers, 'Content-Type': ContentType.MULTIPART_FORM }
-        var _body = new FormData(body)
+        var _body = body
 
         return Rx.Observable.ajax
             .post(endpoint, _body, _headers)
