@@ -36,7 +36,7 @@ let LoginFormView = ({handleSubmit}) => {
             </div>
           </div>
           <div className='row margin-top-30'>
-            <button type='submit' className='btn btn-blue' style={{'margin-left':'12px'}}>Submit</button>
+            <button type='submit' className='btn btn-blue' style={{'marginLeft':'12px'}}>Submit</button>
           </div>
         </div>
       </div>

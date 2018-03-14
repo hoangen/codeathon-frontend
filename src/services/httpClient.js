@@ -49,6 +49,16 @@ export default class HttpClient {
             .map(resp => resp.response)
     }
 
+    postAsMultiPartForm(endpoint, headers, body) {
+        debugger
+        var _headers = { ...headers, 'Content-Type': ContentType.MULTIPART_FORM }
+        var _body = new FormData(body)
+
+        return Rx.Observable.ajax
+            .post(endpoint, _body, _headers)
+            .map(resp => resp.response)
+    }
+
     /**
      * PUT to web service with body as a object
      * @param {string} endpoint web service endpoint

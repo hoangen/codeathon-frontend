@@ -8,7 +8,8 @@ export const HttpMethod = {
 
 export const ContentType = {
   FORM_URL_ENCODED: 'application/x-www-form-urlencoded',
-  JSON_TEXT: 'application/json'
+  JSON_TEXT: 'application/json',
+  MULTIPART_FORM: 'multipart/form-data'
 }
 
 export const RequestHeader = {

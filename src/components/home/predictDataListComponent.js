@@ -11,9 +11,10 @@ const mapStateToProps = (state, props) => {
 
 const PredictionDataList = ({predictDataList}) => {
     console.log("value" + predictDataList.length)
+    debugger
     return (
             <div className="row margin-bottom-10 margin-top-30">
-                {predictDataList.length > 0 &&
+
                 <table className="table table-striped">
                     <thead>
                     <tr>
@@ -24,8 +25,8 @@ const PredictionDataList = ({predictDataList}) => {
                     </tr>
                     </thead>
                     <tbody>
-                    {predictDataList.map((item, index) => (
-                        <tr>
+                    {predictDataList.length > 0 && predictDataList.map((item, index) => (
+                        <tr id={index}>
                             <th scope="row">{++index}</th>
                             <td>{item.name}</td>
                             <td>{item.transaction}</td>
@@ -34,7 +35,6 @@ const PredictionDataList = ({predictDataList}) => {
                     ))}
                     </tbody>
                 </table>
-                }
             </div>
     )
 };

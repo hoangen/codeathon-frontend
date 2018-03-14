@@ -25,6 +25,8 @@ export const initCustomerSessionFail = (error) => ActionFactory.create(ActionTyp
 
 export const getDecisionStatus = () => ActionFactory.ofType(ActionType.GET_DECISION_STATUS)
 
+export const predictSearch = (formData) => ActionFactory.create(ActionType.GET_PREDICT_DATA_LIST, formData)
+
 export const getDecisionStatusSuccess = apiResponse => ActionFactory.create(
 	ActionType.GET_DECISION_STATUS_SUCCESS, apiResponse)
 

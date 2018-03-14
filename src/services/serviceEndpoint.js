@@ -1,12 +1,15 @@
 import EnvironmentVariables from './../common/environmentVariables'
 
 export const Endpoint = {
-  BASE_PATH: 'api/codeathon',
+  // BASE_PATH: 'api/codeathon',
+  BASE_PATH: '',
 
   INIT_CUSTOMER_SESSION: 'session/init',
   CREATE_CUSTOMER: 'customers/createinformation',
   SETTING_CONFIGURATION: 'settings/configurations',
-  REVOKE_CUSTOMER_SESSION: 'session/finalize'
+  REVOKE_CUSTOMER_SESSION: 'session/finalize',
+  PREDICT_DATA_ENDPOINT: "predict",
+  UPLOAD_MODEL_FILE_ENDPOINT: "model/upload"
 }
 export const GeneralEndpoint = {
   SEARCHING_COMPANY_NAME: 'search/company'
@@ -20,9 +23,9 @@ export default class ServiceEndpoint {
 
   getFullServiceEndpoint (endpoint) {
     if (EnvironmentVariables.SVC_BASE_URL) {
-      return `${EnvironmentVariables.SVC_BASE_URL}/${Endpoint.BASE_PATH}/${endpoint}`
+      return `${EnvironmentVariables.SVC_BASE_URL}/${endpoint}`
     } else {
-      return `/${Endpoint.BASE_PATH}/${endpoint}`
+      return `${endpoint}`
     }
   }
 
@@ -39,6 +42,14 @@ export default class ServiceEndpoint {
   get getConfigurationEndpoint () {
       return this.getFullServiceEndpoint(Endpoint.SETTING_CONFIGURATION)
   }
+
+    get getPredictDataEndpoint () {
+        return this.getFullServiceEndpoint(Endpoint.PREDICT_DATA_ENDPOINT)
+    }
+
+    get getUploadModelFileEndpoint () {
+        return this.getFullServiceEndpoint(Endpoint.UPLOAD_MODEL_FILE_ENDPOINT)
+    }
 
   get revokeCustomerSession () {
     return this.getFullServiceEndpoint(Endpoint.REVOKE_CUSTOMER_SESSION)

@@ -8,6 +8,8 @@ import {MaxLength, ReduxForm} from '../../common/constants'
 import Input from '../widget/input'
 import logo from '../../assets/images/icon-fitur.svg'
 import '../../assets/css/review-customer-information.css'
+import ActionFactory from "../../actions/actionFactory";
+import ActionType from "../../actions/actionType";
 
 const mapStateToProps = (state, props) => {
     return {}
@@ -21,13 +23,19 @@ class ModelFormComponent extends React.Component {
     }
 
     handleSubmit(e) {
+        debugger
         e.preventDefault();
+        var formData = new FormData();
+        var file = document.getElementById("file").files[0];
+        // formData.append('file', e.target.file);
+        // formData.append('file', file);
+        formData.append('file', new Blob(['test payload'], { type: 'text/csv' }));
 
-        const formData = {};
-        for (const field in this.refs) {
-            formData[field] = this.refs[field].value;
-        }
-        console.log('upload model-->', formData);
+
+        // for (var pair of formData.entries()) {
+        //     console.log(pair[0]+ ', ' + pair[1]);
+        // }
+        this.props.uploadModelFile(formData);
 
     }
 
@@ -41,14 +49,14 @@ class ModelFormComponent extends React.Component {
                         </div>
                         <div className="row">
                             <div className="col-sm-6 col-xs-12">
-                                <a href="#" class="badge badge-primary">Download Model</a>
+                                <a href="#" className="badge badge-primary">Download Model</a>
                             </div>
                         </div>
 
                         <div className="row">
                             <div className="col-sm-6 col-xs-12">
                                 <label className="gray-small-text">Please upload new model</label>
-                                <input type="file" class="form-control-file" id="exampleFormControlFile1"/>
+                                <input type="file" className="form-control-file" name="file" id="file"/>
                             </div>
                         </div>
                         <div className='row margin-top-30'>
@@ -61,8 +69,12 @@ class ModelFormComponent extends React.Component {
     }
 }
 
-const mapDispatchToProps = (dispatch) => ({
-    // initCustomerSession: (reCaptchaToken) => dispatch(initCustomerSession(reCaptchaToken))
-})
+
+const mapDispatchToProps = (dispatch) => {
+    return {
+        uploadModelFile: (formData) => dispatch(ActionFactory.create(ActionType.UPLOAD_MODEL_FILE, formData))
+    }
+}
+
 
 export default withRouter(connect(mapStateToProps, mapDispatchToProps)(ModelFormComponent))

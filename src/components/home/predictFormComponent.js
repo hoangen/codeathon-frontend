@@ -8,6 +8,9 @@ import {MaxLength, ReduxForm} from '../../common/constants'
 import Input from '../widget/input'
 import logo from '../../assets/images/icon-fitur.svg'
 import '../../assets/css/review-customer-information.css'
+import {predictSearch} from "../../actions/actionCreator";
+import ActionFactory from "../../actions/actionFactory";
+import ActionType from "../../actions/actionType";
 
 const mapStateToProps = (state, props) => {
     return {}
@@ -30,6 +33,7 @@ class PredictFormComponent extends React.Component {
         for (var pair of formData.entries()) {
             console.log(pair[0]+ ', ' + pair[1]);
         }
+        this.props.callPredictSearch(formData);
     }
 
     render () {
@@ -43,7 +47,7 @@ class PredictFormComponent extends React.Component {
                         <div className="row">
                             <div className="col-sm-6 col-xs-12 margin-bottom-30">
                                 <label className="gray-small-text margin-bottom-10">Please update file data searching</label>
-                                <input type="file" class="form-control-file" name="file" id="file"/>
+                                <input type="file" className="form-control-file" name="file" id="file"/>
                             </div>
                         </div>
                         <div className='row'>
@@ -56,9 +60,12 @@ class PredictFormComponent extends React.Component {
     }
 }
 
-const mapDispatchToProps = (dispatch) => ({
-    // initCustomerSession: (reCaptchaToken) => dispatch(initCustomerSession(reCaptchaToken))
-})
+const mapDispatchToProps = (dispatch) => {
+    return {
+        callPredictSearch: (formData) => dispatch(ActionFactory.create(ActionType.GET_PREDICT_DATA_LIST, formData))
+        // callPredictSearch: () => dispatch(ActionFactory.ofType(ActionType.GET_LOAN_CONFIG))
+    }
+}
 
 // export default withRouter(connect(mapStateToProps, mapDispatchToProps)(PredictFormComponent))
 
@@ -66,3 +73,5 @@ export default withRouter(connect(mapStateToProps,
     mapDispatchToProps)(reduxForm({
     form: ReduxForm.FORM_PREDICT_SEARCH
 })(PredictFormComponent)))
+
+

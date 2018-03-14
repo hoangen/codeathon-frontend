@@ -23,7 +23,7 @@ class App extends React.Component {
     //load call API REST when first time go to home page
   componentDidMount() {
       const {getLoanConfig} = this.props;
-      getLoanConfig()
+      // getLoanConfig()
   }
 
   componentWillReceiveProps(nextprops) {
@@ -89,7 +89,7 @@ const mapStateToProps = state => {
 
 //map data from response API to Properties
 const mapDispatchToProps = (dispatch) => ({
-  getLoanConfig: () => dispatch(ActionFactory.ofType(ActionType.GET_LOAN_CONFIG))
+  // getLoanConfig: () => dispatch(ActionFactory.ofType(ActionType.GET_LOAN_CONFIG))
 })
 
 export default withRouter(connect(
