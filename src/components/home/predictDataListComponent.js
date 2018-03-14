@@ -73,7 +73,7 @@ const PredictionDataList = ({predictKeyList, predictDataList}) => {
     }
 
     return (
-            <div className="row margin-bottom-10 margin-top-20" style={{overflowX: 'auto', overflowY: 'auto'}}>
+            <div className="row margin-bottom-10 margin-top-20" style={{overflow: 'auto', maxHeight: '600px'}}>
                 {predictKeyList.length > 0 &&
                     <a href='#' style={{paddingBottom: '10px'}} onClick={() => {
                         downloadCSV({filename: "predict-search-data.csv", stockData: predictDataList})
