@@ -39,12 +39,12 @@ class PredictFormComponent extends React.Component {
                             <h1 className="align-left"><img src={logo} alt="Predict Search"/>Predict Search</h1>
                         </div>
                         <div className="row">
-                            <div className="col-sm-6 col-xs-12 margin-bottom-30">
+                            <div className="col-sm-6 col-xs-12 margin-bottom-30" style={{paddingLeft: '0'}}>
                                 <label className="gray-small-text margin-bottom-10">Please update file data searching</label>
                                 <input type="file" className="custom-file-input" name="file" id="file" required/>
                             </div>
                         </div>
-                        <div className='row' style={{marginLeft: '0'}}>
+                        <div className='row'>
                             <button type='submit' className='btn btn-blue'>Search</button>
                         </div>
                     </div>
