@@ -16,11 +16,6 @@ class LoginPage extends React.Component {
             this.props.history.push(AppPageURL.DASHBOARD)
     }
 
-    componentDidMount () {
-        // window.nextStep('stepWorkingExperience', 'stepPersonalInfo', 'step2', 'step1')
-        // window.scrollTo(0, 0)
-    }
-
     render () {
         return (
             <div id='mainContent' className='bg-rectangle'>

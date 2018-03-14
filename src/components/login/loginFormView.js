@@ -26,13 +26,13 @@ let LoginFormView = ({handleSubmit}) => {
                     maxLength={MaxLength.INPUT_FULL_NAME}
                     validate={[validation.loginPage.usernameValidate]}
                     type='text'/>
-              <Input
-                className='form-group field-style margin-top-50 left0'
-                id='password'
-                label='Password'
-                maxLength={MaxLength.INPUT_FULL_NAME}
-                validate={[validation.loginPage.passwordValidate]}
-                type='password'/>
+                <Input
+                    className='form-group field-style margin-top-50 left0'
+                    id='password'
+                    label='Password'
+                    maxLength={MaxLength.INPUT_FULL_NAME}
+                    validate={[validation.loginPage.passwordValidate]}
+                    type='password'/>
             </div>
           </div>
           <div className='row margin-top-30'>
@@ -45,7 +45,6 @@ let LoginFormView = ({handleSubmit}) => {
 }
 
 const mapStateToProps = (state, ownProps) => {
-    console.log("hello");
   var formLogin = state.form.loginPage
   var formValues = formLogin && formLogin.values
   var username, password;

@@ -727,3 +727,10 @@ label.radio-inline {
         float: right;
     }
 }
+
+.alert-primary {
+    color: #004085;
+    background-color: #cce5ff;
+    border-color: #b8daff;
+    text-align: center;
+}

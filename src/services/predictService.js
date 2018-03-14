@@ -9,7 +9,7 @@ export default class PredictService extends AppService {
         }
 
         return this.httpClient
-            .postAsFormUrlEncoded(this.serviceEndpoint.getPredictDataEndpoint, header, formData)
+            .postAsMultiPartForm(this.serviceEndpoint.getPredictDataEndpoint, header, formData)
             .catch(error => this.handleHttpError(error))
     }
 }

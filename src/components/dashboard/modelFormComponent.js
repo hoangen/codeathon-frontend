@@ -1,18 +1,15 @@
 import React from 'react'
-import {reduxForm} from 'redux-form'
-import validation from '../../utils/validationUtils'
 import {withRouter} from 'react-router-dom'
 import {connect} from 'react-redux'
-import ObjectUtils from '../../utils/objectUtils'
-import {MaxLength, ReduxForm} from '../../common/constants'
-import Input from '../widget/input'
-import logo from '../../assets/images/icon-fitur.svg'
 import '../../assets/css/review-customer-information.css'
 import ActionFactory from "../../actions/actionFactory";
 import ActionType from "../../actions/actionType";
+import download from '../../assets/images/download.jpeg'
+import StatusComponent from './statusComponent'
 
 const mapStateToProps = (state, props) => {
-    return {}
+    return {
+    }
 }
 
 class ModelFormComponent extends React.Component {
@@ -27,40 +24,45 @@ class ModelFormComponent extends React.Component {
         e.preventDefault();
         var formData = new FormData();
         var file = document.getElementById("file").files[0];
-        // formData.append('file', e.target.file);
-        formData.append('file', file);
-        // formData.append('file', new Blob(['test payload'], { type: 'text/csv' }));
-
-
-        // for (var pair of formData.entries()) {
-        //     console.log(pair[0]+ ', ' + pair[1]);
-        // }
-        this.props.uploadModelFile(formData);
-
+        if(file) {
+            formData.append('file', file);
+            this.props.uploadModelFile(formData);
+        }
+        return;
     }
 
     render () {
         return (
-            <form onSubmit={this.handleSubmit}>
+            <form encType="multipart/form-data" onSubmit={this.handleSubmit}>
                 <div id='stepPersonalInformation' className='step-content'>
                     <div className='container'>
-                        <div className="row margin-bottom-10 margin-top-30">
-                            <h1 className="align-left">Model Board</h1>
+                        <StatusComponent/>
+                        <div className="row margin-bottom-10">
+                            <h1 className="align-center">Model Management</h1>
                         </div>
                         <div className="row">
                             <div className="col-sm-6 col-xs-12">
-                                <a href="#" className="badge badge-primary">Download Model</a>
+                                <div className="form-group">
+                                    <label className="gray-small-text" style={{marginBottom: '10px'}}>Please upload new model</label>
+                                    <input type="file" className="form-control-file" name="file" id="file" required/>
+                                </div>
+                                <div className="form-group">
+                                    <div className='row margin-top-30'>
+                                        <button type='submit' className='btn btn-blue' id='nextToStepWorkInformation'>Upload New Model</button>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
 
-                        <div className="row">
                             <div className="col-sm-6 col-xs-12">
-                                <label className="gray-small-text">Please upload new model</label>
-                                <input type="file" className="form-control-file" name="file" id="file"/>
+                                <div className="form-group">
+                                    <label className="gray-small-text" >Please download model</label>
+                                </div>
+                                <div className="form-group">
+                                    <a href="http://13.55.86.51:5001/model/download/model.zip" download>
+                                        <img alt="W3Schools" src={download} width="100" height="100"/>
+                                    </a>
+                                </div>
                             </div>
-                        </div>
-                        <div className='row margin-top-30'>
-                            <button type='submit' className='btn btn-blue' id='nextToStepWorkInformation'>Search</button>
                         </div>
                     </div>
                 </div>
@@ -69,12 +71,10 @@ class ModelFormComponent extends React.Component {
     }
 }
 
-
 const mapDispatchToProps = (dispatch) => {
     return {
         uploadModelFile: (formData) => dispatch(ActionFactory.create(ActionType.UPLOAD_MODEL_FILE, formData))
     }
 }
-
 
 export default withRouter(connect(mapStateToProps, mapDispatchToProps)(ModelFormComponent))

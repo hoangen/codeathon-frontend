@@ -7,6 +7,7 @@ import timeLogReducer from './timeLogReducers'
 import ActionType from '../actions/actionType'
 import initCustomerSessionReducer from "./initCustomerSession.reducer";
 import predictDataReducer from './predictDataReducer'
+import modelUploadReducer from "./modelUploadReducer";
 
 const defaultConfigReducer = {
   getConfigurationsAPIResponse: {},
@@ -20,6 +21,7 @@ export const combineReducer = combineReducers({
   getConfigurationsAPIResponse: configurationsReducer,
   companyNames: companyNameReducer,
   customerSessionResponse: initCustomerSessionReducer,
+  uploadModelFile: modelUploadReducer,
   predictData: predictDataReducer,
   timeTracking: timeLogReducer
 })

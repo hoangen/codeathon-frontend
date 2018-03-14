@@ -63,7 +63,6 @@ class PredictFormComponent extends React.Component {
 const mapDispatchToProps = (dispatch) => {
     return {
         callPredictSearch: (formData) => dispatch(ActionFactory.create(ActionType.GET_PREDICT_DATA_LIST, formData))
-        // callPredictSearch: () => dispatch(ActionFactory.ofType(ActionType.GET_LOAN_CONFIG))
     }
 }
 
