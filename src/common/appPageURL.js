@@ -12,7 +12,4 @@ export default class AppPageURL {
         return '/dashboard';
     }
 
-  static get CUSTOMER_PROFILE() {
-      return '/customer/profile'
-  }
 }

@@ -1,10 +1,4 @@
-import { getConfigurationsSuccess, getConfigurationsFailed } from './../actions/actionCreator'
 import ActionType from './../actions/actionType'
-import getConfigurations from './getConfigurations'
-import ConfigurationsService from "../services/configurations.service";
-import CacheUtils from "../utils/cacheUtils";
-import PredictService from "../services/predictService";
-import {defaultConfig} from "../common/constants";
 import ActionFactory from "../actions/actionFactory";
 import ModelService from "../services/modelService";
 

@@ -1,14 +1,10 @@
 import React from 'react'
 import {reduxForm} from 'redux-form'
-import validation from '../../utils/validationUtils'
 import {withRouter} from 'react-router-dom'
 import {connect} from 'react-redux'
-import ObjectUtils from '../../utils/objectUtils'
 import {MaxLength, ReduxForm} from '../../common/constants'
-import Input from '../widget/input'
 import logo from '../../assets/images/icon-fitur.svg'
 import '../../assets/css/review-customer-information.css'
-import {predictSearch} from "../../actions/actionCreator";
 import ActionFactory from "../../actions/actionFactory";
 import ActionType from "../../actions/actionType";
 

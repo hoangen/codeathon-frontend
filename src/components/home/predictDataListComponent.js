@@ -23,8 +23,8 @@ const PredictionDataList = ({predictKeyList, predictDataList}) => {
                 <table className="table table-striped">
                     <thead>
                     <tr>
-                        {predictKeyList.length > 0 && predictKeyList.map((key) => {
-                            return <th scope="col">{key}</th>
+                        {predictKeyList.length > 0 && predictKeyList.map((key, index) => {
+                            return <th scope="col" key={index}>{key}</th>
                         })}
                     </tr>
                     </thead>
@@ -32,7 +32,7 @@ const PredictionDataList = ({predictKeyList, predictDataList}) => {
                     {predictDataList.length > 0 && predictDataList.map((item, index) => (
                         <tr key={index} style={{color : item.fraud == 1 && 'red'}}>
                             {predictKeyList.map((key) => {
-                                return <td>{item[key]}</td>
+                                return <td key={key + index}>{item[key]}</td>
                             })}
                         </tr>
                     ))}

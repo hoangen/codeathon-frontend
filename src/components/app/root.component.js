@@ -13,7 +13,6 @@ import PageNotFound from './error/pageNotFound.component'
 
 const AsyncUnauthorized = asyncComponent(() => import('./error/unauthorized.component'))
 const AsyncForbidden = asyncComponent(() => import('./error/forbidden.component'))
-const AsyncAutomationSupportingHome = asyncComponent(() => import('../auto/automation-supporting-home'))
 
 class Root extends React.Component {
   componentDidMount () {
@@ -42,7 +41,6 @@ class Root extends React.Component {
                   <Route exact path={AppPageURL.INTERNAL_SERVER_ERROR} render={() => withError(<InternalServerError/>)} />
                   <Route exact path={AppPageURL.FORBIDDEN} render={() => withError(<AsyncForbidden/>)} />
                   <Route exact path={AppPageURL.PAGE_NOT_FOUND} render={() => withError(<PageNotFound/>)} />
-                  <Route exact path={AppPageURL.AUTOMATION_SUPPORTING} component={AsyncAutomationSupportingHome} />
               </Switch>
           </div>
       )
