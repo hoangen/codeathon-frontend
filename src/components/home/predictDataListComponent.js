@@ -19,7 +19,7 @@ const mapStateToProps = (state, props) => {
 
 const PredictionDataList = ({predictKeyList, predictDataList}) => {
     return (
-            <div className="row margin-bottom-10 margin-top-30" style={{overflowX: 'scroll'}}>
+            <div className="row margin-bottom-10 margin-top-30" style={{overflowX: 'auto'}}>
                 <table className="table table-striped">
                     <thead>
                     <tr>
