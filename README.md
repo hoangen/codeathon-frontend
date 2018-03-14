@@ -31,6 +31,8 @@ $ cd codeathon-frontend
 $ npm install
 ```
 
+## Run
+
 To start the development server
 
 ```
