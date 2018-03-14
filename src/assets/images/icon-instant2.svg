@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="62" height="62" viewBox="0 0 62 62">
+    <g fill="none" fill-rule="evenodd" transform="translate(5 5)">
+        <path fill="#FC0" d="M52 26c0 14.36-11.64 26-26 26S0 40.36 0 26 11.64 0 26 0s26 11.64 26 26"/>
+        <path stroke="#231F20" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.08" d="M52 26c0 14.36-11.64 26-26 26S0 40.36 0 26 11.64 0 26 0s26 11.64 26 26z"/>
+        <path fill="#FFF" d="M47.84 26c0 12.062-9.778 21.84-21.84 21.84S4.16 38.062 4.16 26 13.938 4.16 26 4.16 47.84 13.938 47.84 26"/>
+        <path stroke="#231F20" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.08" d="M47.84 26c0 12.062-9.778 21.84-21.84 21.84S4.16 38.062 4.16 26 13.938 4.16 26 4.16 47.84 13.938 47.84 26z"/>
+        <circle cx="8.32" cy="26" r="1.04" fill="#231F20"/>
+        <circle cx="43.68" cy="26" r="1.04" fill="#231F20"/>
+        <circle cx="26" cy="9.36" r="1.04" fill="#231F20"/>
+        <circle cx="26" cy="42.64" r="1.04" fill="#231F20"/>
+        <path stroke="#231F20" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.08" d="M28.08 26a2.08 2.08 0 1 1-4.162-.002A2.08 2.08 0 0 1 28.08 26z"/>
+        <g stroke="#231F20" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.08">
+            <path d="M26 13.52v10.4M23.92 26h-9.36"/>
+        </g>
+    </g>
+</svg>

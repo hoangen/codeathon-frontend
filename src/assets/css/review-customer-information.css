@@ -1,0 +1,325 @@
+/*------------------------ review page----------------------------*/
+.review-page {
+    max-width: 800px;
+    margin: 0 auto;
+    background: url(../images/bg-rectangle-review.png) no-repeat 90% 130px;
+}
+
+.review-page h1{
+    font-family: 'HelveticaNeue-Light';
+    font-size: 26px;
+    border-bottom: solid 1px #e4e6e8;
+    margin: 19px 0 0;
+    padding-bottom: 16px;
+}
+
+.review-page h1 img {
+    width: 62px;
+    margin-left: -10px;
+}
+
+.review-page a {
+    color: #3eb5e5;
+}
+
+#tnc-header {
+    padding-left: 25px;
+    font-size: 18px;
+}
+
+.tnc-outlet {
+    width: 25px;
+    vertical-align:top;
+    padding-left: 22px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.tnc-item {
+    padding-bottom: 22px;
+}
+
+.tnc-number-index {
+    width: 25px;
+    vertical-align: top;
+}
+
+.tnc-parent-item {
+    padding-bottom: 20px;
+}
+
+.review-page h3 {
+    font-size: 24px;
+    font-family: 'HelveticaNeue-Bold';
+    height: 69px;
+    background:#f4f4f4;
+    line-height: 67px;
+    padding-left: 20px;
+    margin-top: 15px;
+}
+
+.review-page h4 {
+    font-family: 'HelveticaNeue-Bold';
+    font-size: 18px;
+    clear: both;
+    width: 100%;
+    padding: 0 15px;
+    margin: 20px 0;
+    float: left;
+}
+
+.review-page .row div {
+    margin-bottom: 12px;
+}
+
+.review-page label{
+    font-weight: normal;
+    color: #78838c;
+}
+
+.review-page .review-page-value,
+.review-page input[type="text"],
+.review-page .input-pseudo {
+    border:none;
+    background: transparent;
+    width: 100%;
+    font-size: 18px;
+    line-height: 22px;
+    padding:0 0 6px;
+    color: #231f20;
+    font-family: 'HelveticaNeue';
+}
+
+.review-page .row div.condition {
+    display: table;
+    font-size: 14px;
+    margin: 30px 0 45px;
+}
+
+.review-page .condition.has-error .help-block{
+    text-align: center;
+}
+
+.review-page .condition label,
+.review-page .condition p {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.review-page .gray-block{
+    width: 100%;
+    overflow: hidden;
+    padding: 0 15px;
+    background: #f6f7f8;
+}
+
+.review-page .gray-block label{
+    float: left;
+    height: 56px;
+    line-height: 55px;
+    margin-bottom: 0;
+}
+
+.review-page .gray-block .review-page-value{
+    float: right;
+    width: 50%;
+    text-align: right;
+    height: 56px;
+    line-height: 54px;
+    padding-bottom: 0;
+}
+
+.review-page .gray-block div{
+    overflow: hidden;
+    border-bottom: #e4e6e8 solid 1px;
+    margin-bottom: 0;
+}
+
+.review-page .gray-block div:last-child {
+    border-bottom: none;
+}
+
+.review-page .g-recaptcha div {
+    margin: 0 auto;
+}
+
+.review-page .border-bottom {
+    border-bottom: solid 1px #ece9e5;
+}
+
+.bg-rectangle-term .review-page p {
+  font-size: 16px;
+}
+
+#recaptcha-div {
+    padding-bottom: 35px;
+}
+
+.checkbox-inline{
+    float: left;
+    margin-right: 10px;
+    padding-left: 0;
+}
+
+.checkbox-inline + p {
+    font-size: 14px;
+}
+
+.checkbox-inline input[type="checkbox"]:not(:checked),
+.checkbox-inline input[type="checkbox"]:checked
+{
+    position: absolute;
+    left: -9999px;
+}
+
+.checkbox-inline input[type="checkbox"]:not(:checked) + span {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #979797;
+    background: white;
+    border-radius: 2px;
+}
+
+
+.checkbox-inline input[type="checkbox"]:checked + span {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #3eb5e5;
+    background: #3eb5e5;
+    border-radius: 2px;
+}
+
+
+.checkbox-inline input[type="checkbox"]:checked + span::before {
+    content: '';
+    display: block;
+    width: 6px;
+    height: 10px;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    margin: 3px 0 0 6px;
+}
+
+.checkbox{
+    float: left;
+    background: white;
+    border: #3eb5e5 solid 1px;
+}
+
+/* ---------------------------------------- SCREEN ZONE -------------------------------------------*/
+/*------------------ SCREEN ZONE should be always at the bottom of the file -----------------------*/
+/************ Mobile screen ************/
+@media screen and (max-width: 767px) {
+    .review-page {
+        padding: 0 0 15px;
+        background: none;
+    }
+
+    .review-page h3 {
+        font-size: 16px;
+        height: 52px;
+        line-height: 50px;
+        padding-left: 15px;
+        margin-top: 0;
+    }
+
+    .review-page .condition {
+        margin: 20px 0 30px !important;
+    }
+    .review-page .margin-top-30 {
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+
+    .review-page h1 {
+        font-size: 20px;
+        margin:11px 0 0;
+        padding-bottom: 9px;
+    }
+
+    .review-page h1 img{
+        width: 42px;
+    }
+
+    .review-page label {
+        font-size: 14px;
+    }
+
+    .review-page .review-page-value,
+    .review-page input[type="text"],
+    .review-page .input-pseudo,
+    .review-page h4 {
+        font-size: 16px;
+    }
+
+    .review-page h4 {
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+
+    .review-page .row .gray-block {
+        margin-bottom: 20px;
+    }
+
+    .review-page .gray-block div label,
+    .review-page .gray-block div input {
+        height: 46px;
+        line-height: 44px;
+    }
+
+    .review-page .border-bottom {
+        padding-bottom: 15px;
+        height: 30px;
+    }
+
+    .review-page .condition {
+        margin: 10px 0 30px!important;
+    }
+
+    .review-page .condition + .margin-bottom-30{
+        margin-bottom: 20px;
+    }
+
+    .bg-rectangle-term .review-page p {
+      font-size: 12px;
+    }
+}
+
+/************ End Mobile screen ************/
+
+/**************** Tablet ******************/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    #tnc-header {
+        padding-left: 25px;
+        font-size: 16px;
+    }
+
+    .modal-body-html {
+        background-color: #fafafa;
+        line-height: 20px;
+        font-size: 14px;
+        padding: 16px 24px 1px 24px;
+    }
+}
+
+/**************** End Tablet ******************/
+
+/**************** Desktop  ******************/
+@media screen and (min-width: 1025px) {
+    #tnc-header {
+        padding-left: 25px;
+        font-size: 18px;
+    }
+
+    .modal-body-html {
+        background-color: #fafafa;
+        line-height: 20px;
+        font-size: 14px;
+        padding: 16px 24px 1px 24px;
+    }
+}
+
+/**************** End Desktop ******************/

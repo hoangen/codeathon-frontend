@@ -1,0 +1,302 @@
+
+/* PAGES - custom CSS */
+/* ------------------- Home page ------------------ */
+
+/* Top Banner */
+.block-banners {
+    max-height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+
+.block-banners .images {
+    height: 400px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+
+.block-banners .content {
+    position: absolute;
+    z-index: 100;
+    top: 50px;
+}
+
+.block-banners .content p {
+    width: 42%;
+}
+
+.fill-layer {
+    background: black;
+    display: none;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    z-index: 1;
+}
+
+/* Tab menus */
+.block-tabs {
+    line-height: 25px;
+    text-align: center;
+}
+
+.block-tabs ul {
+    margin: 0 auto;
+    display: table;
+}
+
+
+.block-tabs ul li {
+    display: inline-block;
+    padding: 25px; 
+}
+
+.block-tabs ul li.active,.block-tab-header a {
+    border-bottom: #ffcc00 solid 3px;
+    font-family: 'HelveticaNeue-Medium'
+}
+
+.block-tab-header {
+    text-align: center;
+    height: 80px;
+    border-bottom: #d1d1d1 solid 1px;
+}
+
+.block-tab-header a {
+    display: inline-block;
+    line-height: 77px;
+}
+
+.block-tab-content {
+    border-top: #d1d1d1 solid 1px;
+    padding: 90px 0;
+}
+
+.block-tab-content .icon {
+    padding-right: 20px;
+    padding-bottom: 15px;
+    display: table-cell;
+}
+
+.block-tab-content .text {
+    display: table-cell
+}
+
+.navbar-default {
+    display: none;
+    background: white;
+    border-bottom-color: #e6e6e6;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: black;
+    text-align: center;
+    line-height: 47px;
+}
+
+.navbar-collapse.navbar-ex1-collapse ul {
+    display: table!important;
+    margin: 0 auto;
+    float: none;
+}
+
+.navbar-collapse.navbar-ex1-collapse ul li {
+    display: table-cell;
+}
+
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+    border-bottom: #ffcc00 solid 3px;
+    font-family: 'HelveticaNeue-Medium';
+    background-color: transparent;
+    color: black;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+/* Tab content 1 */
+.block-tab-content1 {
+    background: #e7edee;
+}
+
+.block-tab-content1 .text p {
+    width: 82%;
+}
+
+/* Tab content 2 */
+.block-tab-content2 {
+    background: #e1e2e5;
+}
+
+/* Tab content 3 */
+
+/* Bottom Block */
+.bottom-block {
+    background: #6b757d;
+    overflow: hidden;
+}
+
+.bottom-block h2 {
+    height: 144px;
+    line-height: 144px;
+    text-align: center;
+    color: white;
+}
+/*----------------------------------ALL NEW CHANGES PLEASE PUT HERE--------------------------------*/
+
+
+
+/* ---------------------------------------- SCREEN ZONE -------------------------------------------*/
+/*------------------ SCREEN ZONE should be always at the bottom of the file -----------------------*/
+/************ Mobile screen ************/
+@media screen and (max-width:767px) {
+  #header .container {
+      text-align: center;
+      position: relative;
+  }
+
+  #header .container {
+      text-align: center;
+      position: relative;
+  }
+  
+  #header .container a.menu-hamburger {
+      position: absolute;
+      left: 30px;
+      top: 0;
+      z-index: 100;
+  }
+
+  .block-banners .content p {
+      width: 80%;
+  }
+
+  .block-banners .content h1 {
+      font-size: 1.25rem;
+      line-height: 30px;
+  }
+
+  p,table {
+      font-size: 0.75rem;
+      line-height: 20px;
+  }
+
+  h2 {
+      font-size: 1.25rem;
+  }
+  
+  .block-tab-content h2 {
+      text-align: center
+  }
+  
+  .block-tab-content {
+      display: none;
+  }
+
+  .block-tab-content .display-table {
+      display: block;
+  }
+
+  .block-tab-content .icon {
+      width: 100%;
+      display: block;
+      text-align: center;
+  }
+
+  .block-tab-header.active + .block-tab-content {
+      display: block;
+      border-top: none
+  }
+
+  .navbar-fixed-top {
+      display: none!important;
+  }
+
+  .col-xs-12.padding-right-40 {
+      padding-right: 15px;
+  }
+
+  .container {
+      padding-right: 30px;
+      padding-left: 30px; 
+  }
+
+  #btnScrollTop {
+      right:30px;
+  }
+}
+/************ End Mobile screen ************/
+
+/**************** Tablet ******************/
+@media screen and (min-width:768px) and (max-width:1024px) {
+  
+  .container {
+      padding-right: 50px;
+      padding-left: 50px; 
+  }
+
+  .block-tabs ul li {
+      line-height: 25px;      
+  }
+
+  .bottom-block {
+      margin-top: 20px;
+  }
+
+  .col-xs-12.padding-right-40 {
+      padding-right: 15px;
+  }
+
+  .block-tab-content {
+      padding: 80px 0;
+  }
+
+  .block-tab-content3 {
+      padding-bottom: 180px;
+  }
+  
+  #btnScrollTop {
+      right:30px;
+  }
+
+  ul.nav-right li a {
+      padding:0 10px;
+      width: 130px;
+  }
+
+  .block-banners .content p {
+      width: 62%;
+  }  
+}
+
+/**************** End Tablet ******************/
+
+/**************** Desktop  ******************/
+@media screen and (min-width:1025px) {
+  
+  .bottom-block {
+      margin-top: 20px;
+  }
+
+  .block-tab-content .text {
+      padding-right: 20px;
+  } 
+  
+  .block-tab-content .text h2 {
+      margin-top:10px;
+  }
+
+  .block-tab-content .icon img {
+      max-width: 80px;
+  }
+}
+
+/**************** End Desktop ******************/

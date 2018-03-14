@@ -1,0 +1,1752 @@
+{
+  "app" : {
+    "isAuthenticated": false
+  },
+  "initCustomerSessionAPIResponse": {
+    "data": {
+      "accessToken": "7af8d4c3-2eac-313a-8068-f773f33ba33a",
+      "applicationNumber": "2017082100000001",
+      "expiresIn": "3600"
+    },
+    "errors": [],
+    "warnings": [],
+    "success": true
+  },
+  "customerPersonalInformation": {
+    "fullName": "Hung Nguyen",
+    "dateOfBirth": "01-04-1984",
+    "phoneNumber": "0987290789",
+    "emailAddress": "uyhung.nguyen@outlook.com",
+    "address": "88/01/14 street 4, Go Vap district, HCM city",
+    "district": "district 1",
+    "village": null,
+    "emergencyContactFullName": "Nguyen Dang Khoi",
+    "emergencyContactPhoneNumber": "0936 679 639",
+    "loanPurpose": {
+      "key": "PENGOBATAN",
+      "value": "Pengobatan"
+    },
+    "town": {
+      "key": "0108-KAB BOGOR",
+      "value": "BOGOR (KAB)"
+    }
+  },
+  "customerWorkingInformation": {
+    "companyName": "ABC",
+    "occupation": {
+      "key": "code-123",
+      "value": "xyz"
+    },
+    "jobTitle": {
+      "key": "code-123",
+      "value": "xyz"
+    },
+    "lineOfBusinessGroup": {
+      "key": "code-123",
+      "name": "abc"
+    },
+    "lineOfBusiness": {
+      "key": "code-123",
+      "name": "abc"
+    }
+  },
+  "getLOVAPIResponse": {
+    "data": {
+      "ownerStatus": [
+        {
+          "id": 81,
+          "code": "OWNER",
+          "name": "Owner"
+        },
+        {
+          "id": 754,
+          "code": "OWNER",
+          "name": "Owner"
+        }
+      ],
+      "province": [
+        {
+          "id": 674,
+          "code": "0300-DKI JAYA",
+          "name": "JAKARTA"
+        },
+        {
+          "id": 1,
+          "code": "0300-DKI JAYA",
+          "name": "JAKARTA",
+          "town": [
+            {
+              "id": 755,
+              "code": "0393-JAKARTA BARAT",
+              "name": "JAKARTA BARAT"
+            },
+            {
+              "id": 756,
+              "code": "0391-JAKARTA PUSAT",
+              "name": "JAKARTA PUSAT"
+            },
+            {
+              "id": 757,
+              "code": "0394-JAKARTA SELATAN",
+              "name": "JAKARTA SELATAN"
+            },
+            {
+              "id": 758,
+              "code": "0395-JAKARTA TIMUR",
+              "name": "JAKARTA TIMUR"
+            },
+            {
+              "id": 759,
+              "code": "0392-JAKARTA UTARA",
+              "name": "JAKARTA UTARA"
+            },
+            {
+              "id": 760,
+              "code": "0396-KEPULAUAN SERIBU",
+              "name": "KEPULAUAN SERIBU"
+            },
+            {
+              "id": 82,
+              "code": "0393-JAKARTA BARAT",
+              "name": "JAKARTA BARAT"
+            },
+            {
+              "id": 83,
+              "code": "0391-JAKARTA PUSAT",
+              "name": "JAKARTA PUSAT"
+            },
+            {
+              "id": 84,
+              "code": "0394-JAKARTA SELATAN",
+              "name": "JAKARTA SELATAN"
+            },
+            {
+              "id": 85,
+              "code": "0395-JAKARTA TIMUR",
+              "name": "JAKARTA TIMUR"
+            },
+            {
+              "id": 86,
+              "code": "0392-JAKARTA UTARA",
+              "name": "JAKARTA UTARA"
+            },
+            {
+              "id": 87,
+              "code": "0396-KEPULAUAN SERIBU",
+              "name": "KEPULAUAN SERIBU"
+            }
+          ]
+        },
+        {
+          "id": 675,
+          "code": "0200-BANTEN",
+          "name": "BANTEN"
+        },
+        {
+          "id": 2,
+          "code": "0200-BANTEN",
+          "name": "BANTEN",
+          "town": [
+            {
+              "id": 91,
+              "code": "0204-KAB TANGERANG",
+              "name": "TANGERANG (KAB)"
+            },
+            {
+              "id": 94,
+              "code": "0292-TANGERANG",
+              "name": "TANGERANG (KOTA)"
+            },
+            {
+              "id": 764,
+              "code": "0204-KAB TANGERANG",
+              "name": "TANGERANG (KAB)"
+            },
+            {
+              "id": 767,
+              "code": "0292-TANGERANG",
+              "name": "TANGERANG (KOTA)"
+            }
+          ]
+        },
+        {
+          "id": 676,
+          "code": "0100-JAWA BARAT",
+          "name": "JAWA BARAT"
+        },
+        {
+          "id": 3,
+          "code": "0100-JAWA BARAT",
+          "name": "JAWA BARAT",
+          "town": [
+            {
+              "id": 771,
+              "code": "0102-KAB BEKASI",
+              "name": "BEKASI (KAB)"
+            },
+            {
+              "id": 772,
+              "code": "0108-KAB BOGOR",
+              "name": "BOGOR (KAB)"
+            },
+            {
+              "id": 788,
+              "code": "0198-BEKASI",
+              "name": "BEKASI (KOTA)"
+            },
+            {
+              "id": 789,
+              "code": "0192-BOGOR",
+              "name": "BOGOR (KOTA)"
+            },
+            {
+              "id": 792,
+              "code": "0197-DEPOK",
+              "name": "DEPOK (KOTA)"
+            },
+            {
+              "id": 98,
+              "code": "0102-KAB BEKASI",
+              "name": "BEKASI (KAB)"
+            },
+            {
+              "id": 99,
+              "code": "0108-KAB BOGOR",
+              "name": "BOGOR (KAB)"
+            },
+            {
+              "id": 115,
+              "code": "0198-BEKASI",
+              "name": "BEKASI (KOTA)"
+            },
+            {
+              "id": 116,
+              "code": "0192-BOGOR",
+              "name": "BOGOR (KOTA)"
+            },
+            {
+              "id": 119,
+              "code": "0197-DEPOK",
+              "name": "DEPOK (KOTA)"
+            }
+          ]
+        },
+        {
+          "id": 678,
+          "code": "1200-JAWA TIMUR",
+          "name": "JAWA TIMUR"
+        },
+        {
+          "id": 5,
+          "code": "1200-JAWA TIMUR",
+          "name": "JAWA TIMUR",
+          "town": [
+            {
+              "id": 867,
+              "code": "1291-SURABAYA",
+              "name": "SURABAYA (KOTA)"
+            },
+            {
+              "id": 194,
+              "code": "1291-SURABAYA",
+              "name": "SURABAYA (KOTA)"
+            }
+          ]
+        }
+      ],
+      "lineOfBusinessGroups": [
+        {
+          "id": 738,
+          "code": "LOBG1",
+          "name": "Jasa"
+        },
+        {
+          "id": 65,
+          "code": "LOBG1",
+          "name": "Jasa",
+          "linesOfBusiness": [
+            {
+              "id": 1286,
+              "code": "47-BIRO PJALANAN >5M",
+              "name": "Biro Perjalanan Besar"
+            },
+            {
+              "id": 1287,
+              "code": "48-BIRO PJALANAN <=5M",
+              "name": "Biro Perjalanan Kecil (≤5M)"
+            },
+            {
+              "id": 1288,
+              "code": "16-JASA PERBANKAN",
+              "name": "Keuangan (Bank)"
+            },
+            {
+              "id": 1289,
+              "code": "15-JASA NON BANK",
+              "name": "Keuangan (Non Bank)"
+            },
+            {
+              "id": 1290,
+              "code": "49-KONSTRUKSI_OPRATOR >5M",
+              "name": "Konstruksi Besar"
+            },
+            {
+              "id": 1291,
+              "code": "50-KONSTRUKSI_OPRATOR<=5M",
+              "name": "Konstruksi Kecil (≤5M)"
+            },
+            {
+              "id": 1292,
+              "code": "27-JASA PARKIR > 5M",
+              "name": "Parkir Besar"
+            },
+            {
+              "id": 1293,
+              "code": "26-JASA PARKIR <=5M",
+              "name": "Parkir Kecil (≤5M)"
+            },
+            {
+              "id": 1294,
+              "code": "17-JASA AKUNTAN KONSUL PAJAK",
+              "name": "Akuntan Publik dan Pajak"
+            },
+            {
+              "id": 1295,
+              "code": "21-JASA EKSPEDISI",
+              "name": "Ekspedisi/Pergudangan"
+            },
+            {
+              "id": 1296,
+              "code": "25-JASA HIBURAN_OLAHRAGA",
+              "name": "Hiburan"
+            },
+            {
+              "id": 1297,
+              "code": "06-KOMINFOTEK",
+              "name": "IT"
+            },
+            {
+              "id": 1298,
+              "code": "23-JASA PERORANGAN RT",
+              "name": "Jasa Rumah Tangga"
+            },
+            {
+              "id": 1299,
+              "code": "22-JASA SERV PERAWATAN",
+              "name": "Jasa/Perawatan"
+            },
+            {
+              "id": 1300,
+              "code": "54-KESEHATAN_RUMAH SAKIT",
+              "name": "Kesehatan/Rumah Sakit"
+            },
+            {
+              "id": 1301,
+              "code": "19-JASA KONSUL PERUSAHAAN",
+              "name": "Konsultan Perusahaan"
+            },
+            {
+              "id": 1302,
+              "code": "05-PENDIDIKAN_PELATIHAN",
+              "name": "Pendidikan/Pelatihan"
+            },
+            {
+              "id": 1303,
+              "code": "53-PENYIARAN_PERCETAKAN",
+              "name": "Penyiaran/Percetakan"
+            },
+            {
+              "id": 1304,
+              "code": "24-JASA SOSIAL_AGAMA",
+              "name": "Sosial/Agama"
+            },
+            {
+              "id": 1305,
+              "code": "20-JASA TRANSPORTASI",
+              "name": "Transportasi"
+            },
+            {
+              "id": 1306,
+              "code": "28-JASA LAIN",
+              "name": "Lainnya"
+            },
+            {
+              "id": 613,
+              "code": "47-BIRO PJALANAN >5M",
+              "name": "Biro Perjalanan Besar"
+            },
+            {
+              "id": 614,
+              "code": "48-BIRO PJALANAN <=5M",
+              "name": "Biro Perjalanan Kecil (≤5M)"
+            },
+            {
+              "id": 615,
+              "code": "16-JASA PERBANKAN",
+              "name": "Keuangan (Bank)"
+            },
+            {
+              "id": 616,
+              "code": "15-JASA NON BANK",
+              "name": "Keuangan (Non Bank)"
+            },
+            {
+              "id": 617,
+              "code": "49-KONSTRUKSI_OPRATOR >5M",
+              "name": "Konstruksi Besar"
+            },
+            {
+              "id": 618,
+              "code": "50-KONSTRUKSI_OPRATOR<=5M",
+              "name": "Konstruksi Kecil (≤5M)"
+            },
+            {
+              "id": 619,
+              "code": "27-JASA PARKIR > 5M",
+              "name": "Parkir Besar"
+            },
+            {
+              "id": 620,
+              "code": "26-JASA PARKIR <=5M",
+              "name": "Parkir Kecil (≤5M)"
+            },
+            {
+              "id": 621,
+              "code": "17-JASA AKUNTAN KONSUL PAJAK",
+              "name": "Akuntan Publik dan Pajak"
+            },
+            {
+              "id": 622,
+              "code": "21-JASA EKSPEDISI",
+              "name": "Ekspedisi/Pergudangan"
+            },
+            {
+              "id": 623,
+              "code": "25-JASA HIBURAN_OLAHRAGA",
+              "name": "Hiburan"
+            },
+            {
+              "id": 624,
+              "code": "06-KOMINFOTEK",
+              "name": "IT"
+            },
+            {
+              "id": 625,
+              "code": "23-JASA PERORANGAN RT",
+              "name": "Jasa Rumah Tangga"
+            },
+            {
+              "id": 626,
+              "code": "22-JASA SERV PERAWATAN",
+              "name": "Jasa/Perawatan"
+            },
+            {
+              "id": 627,
+              "code": "54-KESEHATAN_RUMAH SAKIT",
+              "name": "Kesehatan/Rumah Sakit"
+            },
+            {
+              "id": 628,
+              "code": "19-JASA KONSUL PERUSAHAAN",
+              "name": "Konsultan Perusahaan"
+            },
+            {
+              "id": 629,
+              "code": "05-PENDIDIKAN_PELATIHAN",
+              "name": "Pendidikan/Pelatihan"
+            },
+            {
+              "id": 630,
+              "code": "53-PENYIARAN_PERCETAKAN",
+              "name": "Penyiaran/Percetakan"
+            },
+            {
+              "id": 631,
+              "code": "24-JASA SOSIAL_AGAMA",
+              "name": "Sosial/Agama"
+            },
+            {
+              "id": 632,
+              "code": "20-JASA TRANSPORTASI",
+              "name": "Transportasi"
+            },
+            {
+              "id": 633,
+              "code": "28-JASA LAIN",
+              "name": "Lainnya"
+            }
+          ]
+        },
+        {
+          "id": 739,
+          "code": "LOBG2",
+          "name": "Manufaktur"
+        },
+        {
+          "id": 66,
+          "code": "LOBG2",
+          "name": "Manufaktur",
+          "linesOfBusiness": [
+            {
+              "id": 634,
+              "code": "34-MANUFAK ALAT TRANSPOR",
+              "name": "Alat Transportasi/Mesin"
+            },
+            {
+              "id": 635,
+              "code": "32-MANUFAK ELEKTRONIK",
+              "name": "Elektronik"
+            },
+            {
+              "id": 636,
+              "code": "35-MANUFAK KIMIA_FARMASI",
+              "name": "Farmasi"
+            },
+            {
+              "id": 637,
+              "code": "30-MANUFAKTUR KULIT",
+              "name": "Kulit"
+            },
+            {
+              "id": 638,
+              "code": "33-MANUFAK LOGAM",
+              "name": "Logam"
+            },
+            {
+              "id": 639,
+              "code": "37-MANUFAK MAKANAN_MINUM",
+              "name": "Makanan Minuman"
+            },
+            {
+              "id": 640,
+              "code": "36-MANUFAK ALAT KANTOR_RT",
+              "name": "Peralatan Kantor/Rumah Tangga"
+            },
+            {
+              "id": 641,
+              "code": "29-MANUFAK PLASTIK_KARET",
+              "name": "Plastik/Karet"
+            },
+            {
+              "id": 642,
+              "code": "31-MANUFAK KAYU_FURN",
+              "name": "Produk/Perabotan Kayu"
+            },
+            {
+              "id": 643,
+              "code": "39-MANUFAK TEKSTIL",
+              "name": "Tekstil"
+            },
+            {
+              "id": 644,
+              "code": "38-MANUFAK MIRAS_TEMBAKAU",
+              "name": "Tembakau"
+            },
+            {
+              "id": 645,
+              "code": "40-MANUFAKTUR LAIN",
+              "name": "Lainnya"
+            },
+            {
+              "id": 1307,
+              "code": "34-MANUFAK ALAT TRANSPOR",
+              "name": "Alat Transportasi/Mesin"
+            },
+            {
+              "id": 1308,
+              "code": "32-MANUFAK ELEKTRONIK",
+              "name": "Elektronik"
+            },
+            {
+              "id": 1309,
+              "code": "35-MANUFAK KIMIA_FARMASI",
+              "name": "Farmasi"
+            },
+            {
+              "id": 1310,
+              "code": "30-MANUFAKTUR KULIT",
+              "name": "Kulit"
+            },
+            {
+              "id": 1311,
+              "code": "33-MANUFAK LOGAM",
+              "name": "Logam"
+            },
+            {
+              "id": 1312,
+              "code": "37-MANUFAK MAKANAN_MINUM",
+              "name": "Makanan Minuman"
+            },
+            {
+              "id": 1313,
+              "code": "36-MANUFAK ALAT KANTOR_RT",
+              "name": "Peralatan Kantor/Rumah Tangga"
+            },
+            {
+              "id": 1314,
+              "code": "29-MANUFAK PLASTIK_KARET",
+              "name": "Plastik/Karet"
+            },
+            {
+              "id": 1315,
+              "code": "31-MANUFAK KAYU_FURN",
+              "name": "Produk/Perabotan Kayu"
+            },
+            {
+              "id": 1316,
+              "code": "39-MANUFAK TEKSTIL",
+              "name": "Tekstil"
+            },
+            {
+              "id": 1317,
+              "code": "38-MANUFAK MIRAS_TEMBAKAU",
+              "name": "Tembakau"
+            },
+            {
+              "id": 1318,
+              "code": "40-MANUFAKTUR LAIN",
+              "name": "Lainnya"
+            }
+          ]
+        },
+        {
+          "id": 740,
+          "code": "LOBG3",
+          "name": "Perdagangan"
+        },
+        {
+          "id": 67,
+          "code": "LOBG3",
+          "name": "Perdagangan",
+          "linesOfBusiness": [
+            {
+              "id": 1319,
+              "code": "14-DEALER_SENI_ANTIK >5M",
+              "name": "Dealer Kendraaan/Seni Besar"
+            },
+            {
+              "id": 1320,
+              "code": "13-DEALER_SHOWROOM <=5M",
+              "name": "Dealer/Showroom kecil (≤5M)"
+            },
+            {
+              "id": 1321,
+              "code": "12-EKSPOR IMPOR >5M",
+              "name": "Ekspor Impor Besar"
+            },
+            {
+              "id": 1322,
+              "code": "11-EKSPOR IMPOR <=5M",
+              "name": "Ekspor Impor Kecil (≤5M)"
+            },
+            {
+              "id": 1323,
+              "code": "61-ISI PULSA >5M",
+              "name": "Pedagang Isi Pulsa Besar"
+            },
+            {
+              "id": 1324,
+              "code": "62-ISI PULSA UP <=5M",
+              "name": "Pedagang Isi Pulsa (≤5M)"
+            },
+            {
+              "id": 1325,
+              "code": "07-RESTO_HOTEL_WISATA >5M",
+              "name": "Resto/Hotel/Wisata Besar"
+            },
+            {
+              "id": 1326,
+              "code": "08-RESTO_HOTEL_WISATA<=5M",
+              "name": "Resto/Hotel/Wisata Kecil (≤5M)"
+            },
+            {
+              "id": 1327,
+              "code": "10-ECER_SUPRMKT_GROS >5M",
+              "name": "Ritel Besar"
+            },
+            {
+              "id": 1328,
+              "code": "09-ECER_SUPERMKT_GROS<=5M",
+              "name": "Ritel Kecil (≤5M)"
+            },
+            {
+              "id": 1329,
+              "code": "63-ONLINE SHOP >5M",
+              "name": "Toko Online Besar"
+            },
+            {
+              "id": 1330,
+              "code": "64-ONLINE SHOP <=5M",
+              "name": "Toko Online Kecil (≤5M)"
+            },
+            {
+              "id": 1331,
+              "code": "60-MULTI LEVEL MARKETING",
+              "name": "Multi Level Marketing"
+            },
+            {
+              "id": 1332,
+              "code": "57-PERHIASAN",
+              "name": "Perhiasan"
+            },
+            {
+              "id": 1333,
+              "code": "56-POM BENSIN",
+              "name": "SPBU"
+            },
+            {
+              "id": 1334,
+              "code": "51-PERDAGANGAN LAIN",
+              "name": "Lainnya"
+            },
+            {
+              "id": 646,
+              "code": "14-DEALER_SENI_ANTIK >5M",
+              "name": "Dealer Kendraaan/Seni Besar"
+            },
+            {
+              "id": 647,
+              "code": "13-DEALER_SHOWROOM <=5M",
+              "name": "Dealer/Showroom kecil (≤5M)"
+            },
+            {
+              "id": 648,
+              "code": "12-EKSPOR IMPOR >5M",
+              "name": "Ekspor Impor Besar"
+            },
+            {
+              "id": 649,
+              "code": "11-EKSPOR IMPOR <=5M",
+              "name": "Ekspor Impor Kecil (≤5M)"
+            },
+            {
+              "id": 650,
+              "code": "61-ISI PULSA >5M",
+              "name": "Pedagang Isi Pulsa Besar"
+            },
+            {
+              "id": 651,
+              "code": "62-ISI PULSA UP <=5M",
+              "name": "Pedagang Isi Pulsa (≤5M)"
+            },
+            {
+              "id": 652,
+              "code": "07-RESTO_HOTEL_WISATA >5M",
+              "name": "Resto/Hotel/Wisata Besar"
+            },
+            {
+              "id": 653,
+              "code": "08-RESTO_HOTEL_WISATA<=5M",
+              "name": "Resto/Hotel/Wisata Kecil (≤5M)"
+            },
+            {
+              "id": 654,
+              "code": "10-ECER_SUPRMKT_GROS >5M",
+              "name": "Ritel Besar"
+            },
+            {
+              "id": 655,
+              "code": "09-ECER_SUPERMKT_GROS<=5M",
+              "name": "Ritel Kecil (≤5M)"
+            },
+            {
+              "id": 656,
+              "code": "63-ONLINE SHOP >5M",
+              "name": "Toko Online Besar"
+            },
+            {
+              "id": 657,
+              "code": "64-ONLINE SHOP <=5M",
+              "name": "Toko Online Kecil (≤5M)"
+            },
+            {
+              "id": 658,
+              "code": "60-MULTI LEVEL MARKETING",
+              "name": "Multi Level Marketing"
+            },
+            {
+              "id": 659,
+              "code": "57-PERHIASAN",
+              "name": "Perhiasan"
+            },
+            {
+              "id": 660,
+              "code": "56-POM BENSIN",
+              "name": "SPBU"
+            },
+            {
+              "id": 661,
+              "code": "51-PERDAGANGAN LAIN",
+              "name": "Lainnya"
+            }
+          ]
+        },
+        {
+          "id": 741,
+          "code": "LOBG4",
+          "name": "Lainnya"
+        },
+        {
+          "id": 68,
+          "code": "LOBG4",
+          "name": "Lainnya",
+          "linesOfBusiness": [
+            {
+              "id": 662,
+              "code": "72-DIN KESEHATAN GOL IV",
+              "name": "Dinas Kesehatan Gol ≥ IV"
+            },
+            {
+              "id": 663,
+              "code": "71-DIN PENDIDIKAN GOL IV",
+              "name": "Dinas Pendidikan Gol ≥ IV"
+            },
+            {
+              "id": 664,
+              "code": "44-HUTAN_TEBANG KAYU",
+              "name": "Kayu"
+            },
+            {
+              "id": 665,
+              "code": "59-BALAI LELANG_GADAI",
+              "name": "Lelang/Gadai"
+            },
+            {
+              "id": 666,
+              "code": "55-LISTRIK_GAS_AIR",
+              "name": "Listrik/Gas/Air"
+            },
+            {
+              "id": 667,
+              "code": "58-MONEY CHANGER",
+              "name": "Money Changer"
+            },
+            {
+              "id": 668,
+              "code": "45-TERNAK_IKAN",
+              "name": "Perikanan"
+            },
+            {
+              "id": 669,
+              "code": "43-TANI_KEBUN_BURU_TAMAN",
+              "name": "Pertanian/Perkebunan"
+            },
+            {
+              "id": 670,
+              "code": "52-REAL ESTATE_SEWA",
+              "name": "Real Estate/Sewa Properti"
+            },
+            {
+              "id": 671,
+              "code": "41-TAMBANG ENERGI",
+              "name": "Tambang Energi"
+            },
+            {
+              "id": 672,
+              "code": "42-TAMBANG NON ENERGI",
+              "name": "Tambang Non Energi"
+            },
+            {
+              "id": 673,
+              "code": "46-TEMPAT HIBURAN",
+              "name": "Tempat Hiburan"
+            },
+            {
+              "id": 1335,
+              "code": "72-DIN KESEHATAN GOL IV",
+              "name": "Dinas Kesehatan Gol ≥ IV"
+            },
+            {
+              "id": 1336,
+              "code": "71-DIN PENDIDIKAN GOL IV",
+              "name": "Dinas Pendidikan Gol ≥ IV"
+            },
+            {
+              "id": 1337,
+              "code": "44-HUTAN_TEBANG KAYU",
+              "name": "Kayu"
+            },
+            {
+              "id": 1338,
+              "code": "59-BALAI LELANG_GADAI",
+              "name": "Lelang/Gadai"
+            },
+            {
+              "id": 1339,
+              "code": "55-LISTRIK_GAS_AIR",
+              "name": "Listrik/Gas/Air"
+            },
+            {
+              "id": 1340,
+              "code": "58-MONEY CHANGER",
+              "name": "Money Changer"
+            },
+            {
+              "id": 1341,
+              "code": "45-TERNAK_IKAN",
+              "name": "Perikanan"
+            },
+            {
+              "id": 1342,
+              "code": "43-TANI_KEBUN_BURU_TAMAN",
+              "name": "Pertanian/Perkebunan"
+            },
+            {
+              "id": 1343,
+              "code": "52-REAL ESTATE_SEWA",
+              "name": "Real Estate/Sewa Properti"
+            },
+            {
+              "id": 1344,
+              "code": "41-TAMBANG ENERGI",
+              "name": "Tambang Energi"
+            },
+            {
+              "id": 1345,
+              "code": "42-TAMBANG NON ENERGI",
+              "name": "Tambang Non Energi"
+            },
+            {
+              "id": 1346,
+              "code": "46-TEMPAT HIBURAN",
+              "name": "Tempat Hiburan"
+            }
+          ]
+        }
+      ],
+      "gender": [
+        {
+          "id": 78,
+          "code": "O",
+          "name": "Tidak terdefinisi"
+        },
+        {
+          "id": 751,
+          "code": "O",
+          "name": "Tidak terdefinisi"
+        },
+        {
+          "id": 752,
+          "code": "M",
+          "name": "Laki - laki"
+        },
+        {
+          "id": 79,
+          "code": "M",
+          "name": "Laki - laki"
+        },
+        {
+          "id": 80,
+          "code": "F",
+          "name": "Perempuan"
+        },
+        {
+          "id": 753,
+          "code": "F",
+          "name": "Perempuan"
+        }
+      ],
+      "loanPurpose": [
+        {
+          "id": 69,
+          "code": "PENDIDIKAN",
+          "name": "Pendidikan"
+        },
+        {
+          "id": 742,
+          "code": "PENDIDIKAN",
+          "name": "Pendidikan"
+        },
+        {
+          "id": 743,
+          "code": "PERNIKAHAN",
+          "name": "Pernikahan"
+        },
+        {
+          "id": 70,
+          "code": "PERNIKAHAN",
+          "name": "Pernikahan"
+        },
+        {
+          "id": 71,
+          "code": "RENOVASI",
+          "name": "Renovasi"
+        },
+        {
+          "id": 744,
+          "code": "RENOVASI",
+          "name": "Renovasi"
+        },
+        {
+          "id": 745,
+          "code": "ELEKTRONIK",
+          "name": "Elektronik"
+        },
+        {
+          "id": 72,
+          "code": "ELEKTRONIK",
+          "name": "Elektronik"
+        },
+        {
+          "id": 73,
+          "code": "PENGOBATAN",
+          "name": "Pengobatan"
+        },
+        {
+          "id": 746,
+          "code": "PENGOBATAN",
+          "name": "Pengobatan"
+        },
+        {
+          "id": 747,
+          "code": "LAINNYA",
+          "name": "Lainnya"
+        },
+        {
+          "id": 74,
+          "code": "LAINNYA",
+          "name": "Lainnya"
+        }
+      ],
+      "occupations": [
+        {
+          "id": 707,
+          "code": "M01-KARYAWAN",
+          "name": "Karyawan, Pegawai, Pensiunan"
+        },
+        {
+          "id": 34,
+          "code": "M01-KARYAWAN",
+          "name": "Karyawan, Pegawai, Pensiunan",
+          "jobTitles": [
+            {
+              "id": 580,
+              "code": "SENIOR MANAJEMEN",
+              "name": "Swasta - Manajemen Senior/Pejabat Eksekutif Bank"
+            },
+            {
+              "id": 581,
+              "code": "MANAGER",
+              "name": "Swasta - Manajer"
+            },
+            {
+              "id": 582,
+              "code": "STAFF",
+              "name": "Swasta - Staf"
+            },
+            {
+              "id": 1253,
+              "code": "SENIOR MANAJEMEN",
+              "name": "Swasta - Manajemen Senior/Pejabat Eksekutif Bank"
+            },
+            {
+              "id": 1254,
+              "code": "MANAGER",
+              "name": "Swasta - Manajer"
+            },
+            {
+              "id": 1255,
+              "code": "STAFF",
+              "name": "Swasta - Staf"
+            }
+          ]
+        },
+        {
+          "id": 708,
+          "code": "M06-KARYAWAN BUMN",
+          "name": "Karyawan, Pegawai, Pensiunan"
+        },
+        {
+          "id": 35,
+          "code": "M06-KARYAWAN BUMN",
+          "name": "Karyawan, Pegawai, Pensiunan",
+          "jobTitles": [
+            {
+              "id": 1256,
+              "code": "KARYAWAN BUMN/BUMD/BHMN",
+              "name": "BUMN"
+            },
+            {
+              "id": 583,
+              "code": "KARYAWAN BUMN/BUMD/BHMN",
+              "name": "BUMN"
+            }
+          ]
+        },
+        {
+          "id": 709,
+          "code": "M07-PEGAWAI PEMERINTAH",
+          "name": "Karyawan, Pegawai, Pensiunan"
+        },
+        {
+          "id": 36,
+          "code": "M07-PEGAWAI PEMERINTAH",
+          "name": "Karyawan, Pegawai, Pensiunan",
+          "jobTitles": [
+            {
+              "id": 584,
+              "code": "PEGAWAI PEMERINTAH  ( HONORER S/D GOL III)",
+              "name": "Pemerintah"
+            },
+            {
+              "id": 1257,
+              "code": "PEGAWAI PEMERINTAH  ( HONORER S/D GOL III)",
+              "name": "Pemerintah"
+            }
+          ]
+        },
+        {
+          "id": 710,
+          "code": "M08-PEGAWAI NON GOLONGAN",
+          "name": "Karyawan, Pegawai, Pensiunan"
+        },
+        {
+          "id": 37,
+          "code": "M08-PEGAWAI NON GOLONGAN",
+          "name": "Karyawan, Pegawai, Pensiunan",
+          "jobTitles": [
+            {
+              "id": 586,
+              "code": "PEGAWAI NON GOLONGAN  ( HONORER S/D GOL III)",
+              "name": "Pegawai Pemerintah Non Golongan"
+            },
+            {
+              "id": 1259,
+              "code": "PEGAWAI NON GOLONGAN  ( HONORER S/D GOL III)",
+              "name": "Pegawai Pemerintah Non Golongan"
+            }
+          ]
+        },
+        {
+          "id": 711,
+          "code": "H13-KARYAWAN KPP BEACUKAI",
+          "name": "Karyawan, Pegawai, Pensiunan"
+        },
+        {
+          "id": 38,
+          "code": "H13-KARYAWAN KPP BEACUKAI",
+          "name": "Karyawan, Pegawai, Pensiunan",
+          "jobTitles": [
+            {
+              "id": 1258,
+              "code": "KARYAWAN KPP/BEACUKAI",
+              "name": "Pajak & Bea Cukai"
+            },
+            {
+              "id": 585,
+              "code": "KARYAWAN KPP/BEACUKAI",
+              "name": "Pajak & Bea Cukai"
+            }
+          ]
+        },
+        {
+          "id": 712,
+          "code": "L01-GURU_DOSEN_INSTRUKTUR",
+          "name": "Wirausaha & Profesional"
+        },
+        {
+          "id": 39,
+          "code": "L01-GURU_DOSEN_INSTRUKTUR",
+          "name": "Wirausaha & Profesional",
+          "jobTitles": [
+            {
+              "id": 1260,
+              "code": "GURU/DOSEN/INSTRUKTUR",
+              "name": "Guru"
+            },
+            {
+              "id": 587,
+              "code": "GURU/DOSEN/INSTRUKTUR",
+              "name": "Guru"
+            }
+          ]
+        },
+        {
+          "id": 713,
+          "code": "L02-DOKTER",
+          "name": "Wirausaha & Profesional"
+        },
+        {
+          "id": 40,
+          "code": "L02-DOKTER",
+          "name": "Wirausaha & Profesional",
+          "jobTitles": [
+            {
+              "id": 588,
+              "code": "DOKTER",
+              "name": "Dokter"
+            },
+            {
+              "id": 1261,
+              "code": "DOKTER",
+              "name": "Dokter"
+            }
+          ]
+        },
+        {
+          "id": 714,
+          "code": "M02-WIRAUSAHA",
+          "name": "Wirausaha & Profesional"
+        },
+        {
+          "id": 41,
+          "code": "M02-WIRAUSAHA",
+          "name": "Wirausaha & Profesional",
+          "jobTitles": [
+            {
+              "id": 1262,
+              "code": "WIRAUSAHA",
+              "name": "Wirausaha"
+            },
+            {
+              "id": 589,
+              "code": "WIRAUSAHA",
+              "name": "Wirausaha"
+            }
+          ]
+        },
+        {
+          "id": 715,
+          "code": "M11-WARTAWAN",
+          "name": "Wartawan, Sosial Seni Olahraga"
+        },
+        {
+          "id": 42,
+          "code": "M11-WARTAWAN",
+          "name": "Wartawan, Sosial Seni Olahraga",
+          "jobTitles": [
+            {
+              "id": 590,
+              "code": "WARTAWAN",
+              "name": "Wartawan"
+            },
+            {
+              "id": 1263,
+              "code": "WARTAWAN",
+              "name": "Wartawan"
+            }
+          ]
+        },
+        {
+          "id": 716,
+          "code": "M12-SOSIAL SENI OLAHRAGA",
+          "name": "Wartawan, Sosial Seni Olahraga"
+        },
+        {
+          "id": 43,
+          "code": "M12-SOSIAL SENI OLAHRAGA",
+          "name": "Wartawan, Sosial Seni Olahraga",
+          "jobTitles": [
+            {
+              "id": 1264,
+              "code": "SOSIAL SENI OLAHRAGA",
+              "name": "Pekerja Sosial, Seni, dan Olahraga"
+            },
+            {
+              "id": 591,
+              "code": "SOSIAL SENI OLAHRAGA",
+              "name": "Pekerja Sosial, Seni, dan Olahraga"
+            }
+          ]
+        },
+        {
+          "id": 717,
+          "code": "M05-PENSIUNAN",
+          "name": "Karyawan, Pegawai, Pensiunan"
+        },
+        {
+          "id": 44,
+          "code": "M05-PENSIUNAN",
+          "name": "Karyawan, Pegawai, Pensiunan",
+          "jobTitles": [
+            {
+              "id": 592,
+              "code": "PENSIUNAN",
+              "name": "Pensiunan"
+            },
+            {
+              "id": 1265,
+              "code": "PENSIUNAN",
+              "name": "Pensiunan"
+            }
+          ]
+        },
+        {
+          "id": 718,
+          "code": "M09-ANGGOTA MILITER",
+          "name": "Militer & Kepolisian"
+        },
+        {
+          "id": 45,
+          "code": "M09-ANGGOTA MILITER",
+          "name": "Militer & Kepolisian",
+          "jobTitles": [
+            {
+              "id": 1266,
+              "code": "PERWIRA PERTAMA MILITER",
+              "name": "Perwira Pertama Militer"
+            },
+            {
+              "id": 593,
+              "code": "PERWIRA PERTAMA MILITER",
+              "name": "Perwira Pertama Militer"
+            }
+          ]
+        },
+        {
+          "id": 719,
+          "code": "M10-ANGGOTA KEPOLISIAN",
+          "name": "Militer & Kepolisian"
+        },
+        {
+          "id": 46,
+          "code": "M10-ANGGOTA KEPOLISIAN",
+          "name": "Militer & Kepolisian",
+          "jobTitles": [
+            {
+              "id": 594,
+              "code": "PERWIRA PERTAMA KEPOLISIAN",
+              "name": "Perwira Pertama Kepolisian"
+            },
+            {
+              "id": 1267,
+              "code": "PERWIRA PERTAMA KEPOLISIAN",
+              "name": "Perwira Pertama Kepolisian"
+            }
+          ]
+        },
+        {
+          "id": 720,
+          "code": "H04-PEJABAT MILITER",
+          "name": "Militer & Kepolisian"
+        },
+        {
+          "id": 47,
+          "code": "H04-PEJABAT MILITER",
+          "name": "Militer & Kepolisian",
+          "jobTitles": [
+            {
+              "id": 1268,
+              "code": "PEJABAT MILITER",
+              "name": "Perwira Menengah/Tinggi Militer"
+            },
+            {
+              "id": 595,
+              "code": "PEJABAT MILITER",
+              "name": "Perwira Menengah/Tinggi Militer"
+            }
+          ]
+        },
+        {
+          "id": 721,
+          "code": "H05-PEJABAT KEPOLISIAN",
+          "name": "Militer & Kepolisian"
+        },
+        {
+          "id": 48,
+          "code": "H05-PEJABAT KEPOLISIAN",
+          "name": "Militer & Kepolisian",
+          "jobTitles": [
+            {
+              "id": 596,
+              "code": "PEJABAT KEPOLISIAN",
+              "name": "Perwira Menengah/Tinggi Kepolisian"
+            },
+            {
+              "id": 1269,
+              "code": "PEJABAT KEPOLISIAN",
+              "name": "Perwira Menengah/Tinggi Kepolisian"
+            }
+          ]
+        },
+        {
+          "id": 722,
+          "code": "M04-IBU RUMAH TANGGA",
+          "name": "Ibu Rumah Tangga"
+        },
+        {
+          "id": 49,
+          "code": "M04-IBU RUMAH TANGGA",
+          "name": "Ibu Rumah Tangga",
+          "jobTitles": [
+            {
+              "id": 1270,
+              "code": "IBU RUMAH TANGGA",
+              "name": "Ibu Rumah Tangga"
+            },
+            {
+              "id": 597,
+              "code": "IBU RUMAH TANGGA",
+              "name": "Ibu Rumah Tangga"
+            }
+          ]
+        },
+        {
+          "id": 723,
+          "code": "M03-PELAJAR_MAHASISWA",
+          "name": "Pelajar"
+        },
+        {
+          "id": 50,
+          "code": "M03-PELAJAR_MAHASISWA",
+          "name": "Pelajar",
+          "jobTitles": [
+            {
+              "id": 598,
+              "code": "PELAJAR_MAHASISWA",
+              "name": "Pelajar/Mahasiswa"
+            },
+            {
+              "id": 1271,
+              "code": "PELAJAR_MAHASISWA",
+              "name": "Pelajar/Mahasiswa"
+            }
+          ]
+        },
+        {
+          "id": 724,
+          "code": "M13-PENGANGGURAN",
+          "name": "Belum Bekerja"
+        },
+        {
+          "id": 51,
+          "code": "M13-PENGANGGURAN",
+          "name": "Belum Bekerja",
+          "jobTitles": [
+            {
+              "id": 1272,
+              "code": "PENGANGGURAN",
+              "name": "Belum Bekerja"
+            },
+            {
+              "id": 599,
+              "code": "PENGANGGURAN",
+              "name": "Belum Bekerja"
+            }
+          ]
+        },
+        {
+          "id": 725,
+          "code": "H01-PEJABAT BUMN",
+          "name": "Pejabat Negara/BUMN/Non Golongan, Pekerja Hukum, Pengurus Parpol, Broker, Pemuka Agama, Anggota Legislatif"
+        },
+        {
+          "id": 52,
+          "code": "H01-PEJABAT BUMN",
+          "name": "Pejabat Negara/BUMN/Non Golongan, Pekerja Hukum, Pengurus Parpol, Broker, Pemuka Agama, Anggota Legislatif",
+          "jobTitles": [
+            {
+              "id": 600,
+              "code": "PEJABAT BUMN",
+              "name": "Pejabat BUMN"
+            },
+            {
+              "id": 1273,
+              "code": "PEJABAT BUMN",
+              "name": "Pejabat BUMN"
+            }
+          ]
+        },
+        {
+          "id": 726,
+          "code": "H02-PEJABAT PEMERINTAH",
+          "name": "Pejabat Negara/BUMN/Non Golongan, Pekerja Hukum, Pengurus Parpol, Broker, Pemuka Agama, Anggota Legislatif"
+        },
+        {
+          "id": 53,
+          "code": "H02-PEJABAT PEMERINTAH",
+          "name": "Pejabat Negara/BUMN/Non Golongan, Pekerja Hukum, Pengurus Parpol, Broker, Pemuka Agama, Anggota Legislatif",
+          "jobTitles": [
+            {
+              "id": 1274,
+              "code": "PEJABAT PEMERINTAH",
+              "name": "Pejabat Pemerintah"
+            },
+            {
+              "id": 601,
+              "code": "PEJABAT PEMERINTAH",
+              "name": "Pejabat Pemerintah"
+            }
+          ]
+        },
+        {
+          "id": 727,
+          "code": "H03-PEJABAT NON GOLONGAN",
+          "name": "Pejabat Negara/BUMN/Non Golongan, Pekerja Hukum, Pengurus Parpol, Broker, Pemuka Agama, Anggota Legislatif"
+        },
+        {
+          "id": 54,
+          "code": "H03-PEJABAT NON GOLONGAN",
+          "name": "Pejabat Negara/BUMN/Non Golongan, Pekerja Hukum, Pengurus Parpol, Broker, Pemuka Agama, Anggota Legislatif",
+          "jobTitles": [
+            {
+              "id": 602,
+              "code": "PEJABAT NON GOLONGAN",
+              "name": "Pejabat Non Golongan"
+            },
+            {
+              "id": 1275,
+              "code": "PEJABAT NON GOLONGAN",
+              "name": "Pejabat Non Golongan"
+            }
+          ]
+        },
+        {
+          "id": 728,
+          "code": "H06-PENGACARA",
+          "name": "Pejabat Negara/BUMN/Non Golongan, Pekerja Hukum, Pengurus Parpol, Broker, Pemuka Agama, Anggota Legislatif"
+        },
+        {
+          "id": 55,
+          "code": "H06-PENGACARA",
+          "name": "Pejabat Negara/BUMN/Non Golongan, Pekerja Hukum, Pengurus Parpol, Broker, Pemuka Agama, Anggota Legislatif",
+          "jobTitles": [
+            {
+              "id": 1276,
+              "code": "PENGACARA",
+              "name": "Pengacara"
+            },
+            {
+              "id": 603,
+              "code": "PENGACARA",
+              "name": "Pengacara"
+            }
+          ]
+        },
+        {
+          "id": 729,
+          "code": "H07-KEJAKSAAN",
+          "name": "Pejabat Negara/BUMN/Non Golongan, Pekerja Hukum, Pengurus Parpol, Broker, Pemuka Agama, Anggota Legislatif"
+        },
+        {
+          "id": 56,
+          "code": "H07-KEJAKSAAN",
+          "name": "Pejabat Negara/BUMN/Non Golongan, Pekerja Hukum, Pengurus Parpol, Broker, Pemuka Agama, Anggota Legislatif",
+          "jobTitles": [
+            {
+              "id": 604,
+              "code": "KEJAKSAAN",
+              "name": "Kejaksaan"
+            },
+            {
+              "id": 1277,
+              "code": "KEJAKSAAN",
+              "name": "Kejaksaan"
+            }
+          ]
+        },
+        {
+          "id": 730,
+          "code": "H08-HAKIM",
+          "name": "Pejabat Negara/BUMN/Non Golongan, Pekerja Hukum, Pengurus Parpol, Broker, Pemuka Agama, Anggota Legislatif"
+        },
+        {
+          "id": 57,
+          "code": "H08-HAKIM",
+          "name": "Pejabat Negara/BUMN/Non Golongan, Pekerja Hukum, Pengurus Parpol, Broker, Pemuka Agama, Anggota Legislatif",
+          "jobTitles": [
+            {
+              "id": 1278,
+              "code": "HAKIM",
+              "name": "Hakim"
+            },
+            {
+              "id": 605,
+              "code": "HAKIM",
+              "name": "Hakim"
+            }
+          ]
+        },
+        {
+          "id": 731,
+          "code": "H09-NOTARIS",
+          "name": "Pejabat Negara/BUMN/Non Golongan, Pekerja Hukum, Pengurus Parpol, Broker, Pemuka Agama, Anggota Legislatif"
+        },
+        {
+          "id": 58,
+          "code": "H09-NOTARIS",
+          "name": "Pejabat Negara/BUMN/Non Golongan, Pekerja Hukum, Pengurus Parpol, Broker, Pemuka Agama, Anggota Legislatif",
+          "jobTitles": [
+            {
+              "id": 606,
+              "code": "NOTARIS",
+              "name": "Notaris"
+            },
+            {
+              "id": 1279,
+              "code": "NOTARIS",
+              "name": "Notaris"
+            }
+          ]
+        },
+        {
+          "id": 732,
+          "code": "H10-ANGGOTA LEGISLATIF",
+          "name": "Pejabat Negara/BUMN/Non Golongan, Pekerja Hukum, Pengurus Parpol, Broker, Pemuka Agama, Anggota Legislatif"
+        },
+        {
+          "id": 59,
+          "code": "H10-ANGGOTA LEGISLATIF",
+          "name": "Pejabat Negara/BUMN/Non Golongan, Pekerja Hukum, Pengurus Parpol, Broker, Pemuka Agama, Anggota Legislatif",
+          "jobTitles": [
+            {
+              "id": 1280,
+              "code": "ANGGOTA LEGISLATIF",
+              "name": "Anggota Legislatif"
+            },
+            {
+              "id": 607,
+              "code": "ANGGOTA LEGISLATIF",
+              "name": "Anggota Legislatif"
+            }
+          ]
+        },
+        {
+          "id": 733,
+          "code": "H11-PENGURUS PARPOL",
+          "name": "Pejabat Negara/BUMN/Non Golongan, Pekerja Hukum, Pengurus Parpol, Broker, Pemuka Agama, Anggota Legislatif"
+        },
+        {
+          "id": 60,
+          "code": "H11-PENGURUS PARPOL",
+          "name": "Pejabat Negara/BUMN/Non Golongan, Pekerja Hukum, Pengurus Parpol, Broker, Pemuka Agama, Anggota Legislatif",
+          "jobTitles": [
+            {
+              "id": 608,
+              "code": "PENGURUS PARPOL",
+              "name": "Pengurus Parpol"
+            },
+            {
+              "id": 1281,
+              "code": "PENGURUS PARPOL",
+              "name": "Pengurus Parpol"
+            }
+          ]
+        },
+        {
+          "id": 734,
+          "code": "H12-AUDITOR PENGAWAS",
+          "name": "Pejabat Negara/BUMN/Non Golongan, Pekerja Hukum, Pengurus Parpol, Broker, Pemuka Agama, Anggota Legislatif"
+        },
+        {
+          "id": 61,
+          "code": "H12-AUDITOR PENGAWAS",
+          "name": "Pejabat Negara/BUMN/Non Golongan, Pekerja Hukum, Pengurus Parpol, Broker, Pemuka Agama, Anggota Legislatif",
+          "jobTitles": [
+            {
+              "id": 1282,
+              "code": "AUDITOR PENGAWAS",
+              "name": "Auditor Pengawas"
+            },
+            {
+              "id": 609,
+              "code": "AUDITOR PENGAWAS",
+              "name": "Auditor Pengawas"
+            }
+          ]
+        },
+        {
+          "id": 735,
+          "code": "H14-BROKER AGENT",
+          "name": "Pejabat Negara/BUMN/Non Golongan, Pekerja Hukum, Pengurus Parpol, Broker, Pemuka Agama, Anggota Legislatif"
+        },
+        {
+          "id": 62,
+          "code": "H14-BROKER AGENT",
+          "name": "Pejabat Negara/BUMN/Non Golongan, Pekerja Hukum, Pengurus Parpol, Broker, Pemuka Agama, Anggota Legislatif",
+          "jobTitles": [
+            {
+              "id": 610,
+              "code": "BROKER AGEN",
+              "name": "Broker/Agen"
+            },
+            {
+              "id": 1283,
+              "code": "BROKER AGEN",
+              "name": "Broker/Agen"
+            }
+          ]
+        },
+        {
+          "id": 736,
+          "code": "H15-DUTA BESAR DIPLOMATIK",
+          "name": "Pejabat Negara/BUMN/Non Golongan, Pekerja Hukum, Pengurus Parpol, Broker, Pemuka Agama, Anggota Legislatif"
+        },
+        {
+          "id": 63,
+          "code": "H15-DUTA BESAR DIPLOMATIK",
+          "name": "Pejabat Negara/BUMN/Non Golongan, Pekerja Hukum, Pengurus Parpol, Broker, Pemuka Agama, Anggota Legislatif",
+          "jobTitles": [
+            {
+              "id": 1284,
+              "code": "DUTA BESAR DIPLOMATIK",
+              "name": "Duta Besar Diplomatik"
+            },
+            {
+              "id": 611,
+              "code": "DUTA BESAR DIPLOMATIK",
+              "name": "Duta Besar Diplomatik"
+            }
+          ]
+        },
+        {
+          "id": 737,
+          "code": "H16-PEMUKA AGAMA",
+          "name": "Pejabat Negara/BUMN/Non Golongan, Pekerja Hukum, Pengurus Parpol, Broker, Pemuka Agama, Anggota Legislatif"
+        },
+        {
+          "id": 64,
+          "code": "H16-PEMUKA AGAMA",
+          "name": "Pejabat Negara/BUMN/Non Golongan, Pekerja Hukum, Pengurus Parpol, Broker, Pemuka Agama, Anggota Legislatif",
+          "jobTitles": [
+            {
+              "id": 612,
+              "code": "PEMUKA AGAMA",
+              "name": "Pemuka Agama"
+            },
+            {
+              "id": 1285,
+              "code": "PEMUKA AGAMA",
+              "name": "Pemuka Agama"
+            }
+          ]
+        }
+      ],
+      "maritalStatus": [
+        {
+          "id": 75,
+          "code": "B",
+          "name": "Belum Kawin"
+        },
+        {
+          "id": 748,
+          "code": "B",
+          "name": "Belum Kawin"
+        },
+        {
+          "id": 749,
+          "code": "K",
+          "name": "Kawin"
+        },
+        {
+          "id": 76,
+          "code": "K",
+          "name": "Kawin"
+        },
+        {
+          "id": 77,
+          "code": "J",
+          "name": "Janda/Duda"
+        },
+        {
+          "id": 750,
+          "code": "J",
+          "name": "Janda/Duda"
+        }
+      ]
+    },
+    "errors": [],
+    "warnings": [],
+    "success": true
+  }
+}

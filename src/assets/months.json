@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "key": "01",
+    "value": "Januari"
+  },
+  {
+    "id": 2,
+    "key": "02",
+    "value": "Februari"
+  },
+  {
+    "id": 3,
+    "key": "03",
+    "value": "Maret"
+  },
+  {
+    "id": 4,
+    "key": "04",
+    "value": "April"
+  },
+  {
+    "id": 5,
+    "key": "05",
+    "value": "Mei"
+  },
+  {
+    "id": 6,
+    "key": "06",
+    "value": "Juni"
+  },
+  {
+    "id": 7,
+    "key": "07",
+    "value": "Juli"
+  },
+  {
+    "id": 8,
+    "key": "08",
+    "value": "Agustus"
+  },
+  {
+    "id": 9,
+    "key": "09",
+    "value": "September"
+  },
+  {
+    "id": 10,
+    "key": "10",
+    "value": "Oktober"
+  },
+  {
+    "id": 11,
+    "key": "11",
+    "value": "November"
+  },
+  {
+    "id": 12,
+    "key": "12",
+    "value": "Desember"
+  }
+]

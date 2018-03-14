@@ -1,0 +1,41 @@
+
+input#day,
+input#year {
+    display: inline-block;
+    width: 25%;
+}
+
+input#day {
+    margin-right: 2%;
+}
+
+input#year {
+    margin-left: 2%;
+}
+
+select#month {
+    display: inline-block;
+    width: 50%;
+}
+div#month {
+    display: inline-flex;
+    width: 46%;
+}
+
+#stepPersonalInfo{
+    display: block;
+}
+
+div.text-area {
+    border: none;
+    border-bottom: #78838c solid 1px;
+    font-size: 18px;
+    background: transparent;    
+    padding: 0;
+    min-height: 27px;
+    font-family: 'HelveticaNeue-Light';
+}
+
+div.text-area:focus {
+    outline: none;
+}

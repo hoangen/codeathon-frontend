@@ -1,0 +1,1086 @@
+.container {
+    width: 100%;
+}
+
+/*---------------steps----------------*/
+.steps {
+    height: 81px;
+    max-width: 800px;
+    width: calc(100% - 30px);
+    margin: 0 auto;
+    padding-bottom: 15px;
+    border-bottom: #e4e6e8 solid 1.4px;
+}
+
+.step-icons {
+    clear: both;
+    width: 350px;
+    margin: 15px auto 0;
+    overflow: hidden;
+}
+
+.step-icons #step1 {
+    background: url(../images/icon-document-active.svg) no-repeat center top;
+}
+
+.step-icons #step1.done {
+    background: url(../images/icon-document-done.svg) no-repeat center top;
+}
+
+.step-icons #step2 {
+    background: url(../images/icon-people-nonactive.svg) no-repeat center top;
+}
+
+.step-icons #step2.active {
+    background: url(../images/icon-people-active.svg) no-repeat center top;
+}
+
+.step-icons #step2.done {
+    background: url(../images/icon-people-done.svg) no-repeat center top;
+}
+
+.step-icons #step3 {
+    background: url(../images/icon-work-nonactive.svg) no-repeat center top;
+}
+
+.step-icons #step3.active {
+    background: url(../images/icon-work-active.svg) no-repeat center top;
+}
+
+.step-icons .circle-icon {
+    width: 72px;
+    height: 72px;
+    float: left;
+    margin-right: 8px;
+    text-align: center;
+    font-size: 14px;
+    position: relative;
+    font-weight: bold;
+}
+
+.step-icons .circle-icon::before {
+    content: '1';
+    display: block;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    position: absolute;
+    right: -2px;
+    top: 0;
+    z-index: 10;
+    text-indent: -9999px;
+    background-size: cover !important;
+}
+
+.step-icons #step2::before {
+    content: '2';
+    background: url(../images/step-02-non-active.png) no-repeat center top;
+}
+
+.step-icons #step3::before {
+    content: '3';
+    background: url(../images/step-03-non-active.png) no-repeat center top;
+}
+
+.step-icons .circle-icon::after {
+    content: '';
+    display: block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #eaeaea;
+    position: absolute;
+    right: -10px;
+    top: 36px;
+    z-index: 100;
+}
+
+.step-icons .circle-icon.active::after {
+    background: #3eb5e5;
+}
+
+.step-icons .circle-icon:last-child {
+    margin-right: 0;
+}
+
+.step-icons .circle-icon:last-child::after {
+    display: none;
+}
+
+.step-icons .circle-icon.active#step1::before {
+    background: url(../images/step-01-active.png) no-repeat center top;
+}
+
+.step-icons .circle-icon.active#step2::before {
+    background: url(../images/step-02-active.png) no-repeat center top;
+}
+
+.step-icons .circle-icon.active#step3::before {
+    background: url(../images/step-03-active.png) no-repeat center top;
+}
+
+.step-icons .circle-icon.done::before {
+    background: url(../images/icon-done.svg) no-repeat center top !important;
+    background-size: cover !important;
+}
+
+.step-icons .step-line {
+    width: 50px;
+    height: 40px;
+    border-bottom: #e3e5e7 solid 1px;
+    float: left;
+    margin-right: 8px;
+    position: relative;
+}
+
+.step-icons .step-line::before {
+    content: '';
+    display: block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #eaeaea;
+    position: absolute;
+    right: 0;
+    top: 36px;
+    z-index: 100;
+}
+
+.step-icons .step-line.active {
+    border-bottom: #3eb5e5 solid 1px;
+}
+
+.step-icons .step-line.active::before {
+    background: #3eb5e5;
+}
+
+/*--------------form-------------*/
+form {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.form-control,
+span.unit {
+    color: #231f20;
+    font-family: 'HelveticaNeue-Light';
+}
+
+.has-error .form-control,
+.has-error .form-control:focus {
+    border-color: #ff001c;
+    box-shadow: none;
+}
+
+.has-error .help-block {
+    color: #ff001c;
+    font-size: 12px;
+}
+
+.step-content {
+    display: none;
+}
+
+.step-content,
+.review-page {
+    padding: 0 0 25px;
+}
+
+.step-content > .container {
+    padding-top: 15px;
+}
+
+.step-content label,
+.review-page label {
+    font-weight: normal;
+}
+
+.step-content#stepFinancial {
+    background: url(../images/bg-document.svg) no-repeat right 18px;
+    display: block;
+}
+
+.step-content#stepPersonalInformation {
+    background: url(../images/bg-people.svg) no-repeat right 18px;
+    display: block;
+}
+
+.step-content#stepWorkingInformation {
+    background: url(../images/bg-work.svg) no-repeat right 18px;
+    display: block;
+}
+
+.children-number span {
+    padding: 0 24px;
+    width: 65px;
+    display: inline-block;;
+    text-align: center;
+}
+
+.loan-destination {
+    padding: 10px 0;
+}
+
+.step-content h3,
+.step-content h4 {
+    font-weight: bold;
+}
+
+.loan-destination .options-list {
+    display: table;
+    width: 100%;
+    max-width: 520px;
+    font-size: 14px;
+    margin: 10px 0 10px -15px;
+}
+
+.loan-destination .options-list a {
+    display: table-cell;
+    text-align: center;
+    position: relative;
+    letter-spacing: -0.75px;
+}
+
+.loan-destination .options-list a span.image {
+    display: inline-block;
+    width: 74px;
+    height: 74px;
+    line-height: 70px;
+    border: #f1f3f3 solid 1px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    position: relative;
+    letter-spacing: -0.75px;
+}
+
+.loan-destination .options-list.blur a span {
+    opacity: 0.5;
+}
+
+.loan-destination .options-list a:hover span,
+.loan-destination .options-list a input:checked ~ span {
+    opacity: 1;
+    color: #3eb5e5;
+    font-weight: bold;
+}
+
+.loan-destination .options-list a:hover span.image,
+.loan-destination .options-list a input:checked + span.image {
+    border: #3eb5e5 solid 1px;
+}
+
+.loan-destination.has-error a span.image {
+    border: #ff001c solid 1px;
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -o-filter: blur(0px);
+    -ms-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+}
+
+.loan-destination .options-list a.active {
+    font-weight: bold;
+}
+
+.loan-destination .options-list a img.icon-checked {
+    display: none;
+    position: absolute;
+    right: -7px;
+    top: 0;
+    z-index: 1000;
+}
+
+.loan-destination .options-list a input:checked ~ span.image img.icon-checked {
+    display: block;
+}
+
+.loan-destination .options-list a input {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    right: 7px;
+    top: 0;
+    z-index: 100;
+    opacity: 0;
+}
+
+.step-content#stepWorkingInformation h3 {
+    margin-bottom: 10px;
+}
+
+.form-group {
+    margin-bottom: 27px;
+}
+
+/*.form-group.has-error {*/
+    /*margin-bottom: 10px;*/
+/*}*/
+
+.form-group label {
+    padding: 0;
+    margin-bottom: 0;
+}
+
+input.form-control,
+select.form-control,
+div.form-control {
+    border: none;
+    border-bottom: #78838c solid 1px;
+    font-size: 18px;
+    background: transparent;
+    box-shadow: none;
+    border-radius: 0px;
+    padding: 0;
+    height: 27px;
+}
+
+div.text-area {
+    border: none;
+    border-bottom: #78838c solid 1px;
+    font-size: 18px;
+    background: transparent;
+    padding: 0;
+    min-height: 27px;
+    font-family: 'HelveticaNeue-Light';
+}
+
+div.text-area:focus {
+    outline: none;
+}
+
+textarea.form-control {
+    border: none;
+    border-bottom: #78838c solid 1px;
+    border-radius: 0px;
+    font-size: 18px;
+    background: transparent;
+    box-shadow: none;
+    padding: 0px;
+}
+
+div.form-control {
+    position: relative;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* line-height: 25px; */
+}
+
+div.form-control span.glyphicon,
+div.form-control button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 99;
+    font-size: 12px;
+}
+
+div.form-control button {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    opacity: 0;
+}
+
+div.form-control span.value {
+    font-family: 'HelveticaNeue-Light';
+}
+
+div.datetime {
+    display: block;
+}
+
+span#option-list-text-span {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+div#optionListFormControl {
+    padding-right: 25px;
+}
+
+span.unit {
+    margin-top: -25px;
+    display: block;
+    width: 22px;
+}
+
+input.input-with-unit {
+    padding-left: 24px;
+}
+
+#totalInstallment {
+    display: none;
+}
+
+.btn-area {
+    margin-top: 40px;
+}
+
+#companyName::-ms-clear {
+    display: none;
+}
+
+/*------- Special field style --------*/
+.field-style {
+    position: relative;
+    margin-bottom: 30px;
+    margin-top: 23px;
+}
+
+.field-style label {
+    color: #78838c;
+    font-size: 18px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    top: 0;
+    font-family: 'HelveticaNeue-Light';
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+
+.field-style .caption,
+.field-style .with-errors,
+.form-group .datetime + .has-error .with-errors,
+.form-group.has-error .with-errors{
+    position: absolute;
+    left: 0;
+    font-size: 12px;
+}
+
+.field-style .caption {
+    color: #78838c;
+}
+
+.field-style.col-xs-12 .with-errors,
+.form-group .datetime + .has-error .with-errors,
+.form-group.has-error .with-errors{
+    left: 15px;
+}
+
+.form-group.has-error.left0 .with-errors{
+    left: 0;
+}
+
+.field-style .right-caption {
+    position: absolute;
+    right: 15px;
+    bottom: 0px;
+    font-size: 12px;
+    color: #78838c;
+}
+
+.field-style .right-caption span {
+    color: #231f20;
+}
+
+.field-style label.left0 {
+    left: 0;
+}
+
+/* active state */
+.field-style input:focus ~ label,
+.field-style label.focus,
+.field-style .text-area:focus ~ label {
+    top: -20px;
+    font-size: 14px;
+    color: #3eb5e5;
+    font-family: 'HelveticaNeue';
+}
+
+.field-style label.valid {
+    top: -20px;
+    font-size: 14px;
+    color: #78838c;
+    font-family: 'HelveticaNeue';
+}
+
+/* BOTTOM BARS ================================= */
+.field-style .bar {
+    position: relative;
+    display: block;
+}
+
+.field-style .bar:before,
+.field-style .bar:after {
+    content: '';
+    height: 1px;
+    width: 0;
+    bottom: 0;
+    position: absolute;
+    background: #3eb5e5;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+
+.field-style .bar:before {
+    left: 50%;
+}
+
+.field-style .bar:after {
+    right: 50%;
+}
+
+/* active state */
+.field-style input:focus ~ .bar:before,
+.field-style input:focus ~ .bar:after {
+    width: 50%;
+}
+
+/****************************Calculator box****************************/
+.calculator-box {
+    border-radius: 8px;
+    box-shadow: 0 0 20px 2px #bbb;
+    background:#fff;
+    width: 100%;
+    overflow: hidden;
+}
+
+.calculator-box.active {
+    opacity: 1;
+}
+
+.slider-container {
+    padding: 0 24px 15px 24px;
+}
+
+.interest-installment-container {
+    padding: 0 0px 0px 6px;
+}
+
+.slide-value {
+    text-align: center;
+}
+
+.slide-value * {
+    display: block;
+}
+
+.calculator-box label {
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+
+.slide-value span {
+    font-size: 20px !important;
+    font-weight: bold;
+    color: #3eb5e5;
+}
+
+.slide-value .min-value {
+	font-size: 12px;
+	float: left;
+}
+
+.slide-value .max-value {
+	font-size: 12px;
+	float: right;
+}
+
+.slide-value .slider {
+	margin-top: 20px
+}
+
+.tenor {
+    text-align: center;
+    margin: 0px 0 11px;
+}
+
+.tenor .circle-btn {
+    margin-top: 10px;
+}
+
+.calculator-box .btn.btn-blue {
+    margin-bottom: 20px;
+}
+
+.tenor.has-error .circle-btn {
+    border: #ff001c solid 1px;
+    background: white;
+    color: #231F20;
+}
+
+.tenor.has-error .help-block {
+    font-size: 14px;
+}
+
+.cilian {
+    height: 52px;
+    line-height: 17px;
+    background: #f7f7f7;
+    margin-bottom: 30px;
+    padding-top: 16px;
+}
+
+.cilian .float-left {
+    padding-left: 15px;
+}
+
+.cilian .float-right {
+    padding-right: 15px;
+}
+
+.cilian span {
+    font-size: 14px;
+}
+
+.cilian strong {
+    font-size: 16px;
+}
+
+.cilian .xsmall-text {
+    display: block;
+    margin-top: -3px;
+    font-size: 8px;
+
+}
+
+.slider.slider-horizontal {
+    margin: 0 auto 35px !important;
+}
+
+.slider.slider-horizontal .slider-tick-label-container {
+    padding-top: 20px;
+    font-size: 12px;
+}
+
+.slider.slider-horizontal .slider-track {
+    height: 1px;
+    margin-top: 0;
+    background: #3eb5e5;
+}
+
+.slider-handle,
+.slider-tick.in-selection {
+    background: #3eb5e5;
+}
+
+.slider-tick {
+    box-shadow: none;
+    opacity: 1;
+    width: 8px;
+    height: 8px;
+    border: #3eb5e5 solid 1px;
+    top: 7px;
+    margin-left: 0;
+    background: white;
+}
+
+.slider.slider-horizontal .slider-tick {
+    margin-left: 0;
+    border: none;
+}
+
+/*------------- pseudo select & popup -------------*/
+.modal-header {
+    border: none;
+    background: #7ccadb;
+    color: #fff;
+    border-radius: 3px 3px 0 0;
+    font-weight: bold;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.modal-content {
+    border-radius: 3px;
+}
+
+.modal-backdrop.in {
+    opacity: 0.8;
+    background-color: #231f20;
+}
+
+.close {
+    opacity: 1;
+    text-shadow: none;
+    color: #fff;
+}
+
+.modal-body {
+    font-size: 14px;
+    padding-top: 0;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+/*-------------KOTA (city) -------------*/
+
+.pseudo-select.validate {
+    border-color: #ff001c;
+}
+
+.pseudo-select + .help-block.with-errors {
+    display: none;
+    font-size: 14px;
+    color: #ff001c;
+}
+
+#kotaField.validate,
+#loanDestinationField.validate {
+    border-color: #ff001c;
+}
+
+#kotaField + .help-block.with-errors,
+#loanDestinationField + .help-block.with-errors {
+    display: none;
+    font-size: 14px;
+    color: #ff001c;
+}
+
+.pseudo-select.validate + .help-block.with-errors {
+    display: block;
+}
+
+#kotaField.validate + .help-block.with-errors,
+#loanDestinationField.validate + .help-block.with-errors {
+    display: block;
+}
+
+.disabled {
+    cursor: not-allowed;
+    opacity: 0.3;
+}
+
+.modal-body ul li {
+    overflow: hidden;
+    position: relative;
+}
+
+.modal-body ul li a {
+    float: left;
+    width: 85%;
+    line-height: 20px;
+    margin: 10px 0;
+    color: #2d263b;
+}
+
+.modal-body ul li span {
+    float: right;
+    display: none;
+    margin-top: 10px;
+}
+
+.modal-body ul li.active input:checked ~ span,
+.modal-body ul li input:checked ~ span {
+    display: block;
+}
+
+.modal-body ul li input {
+    width: 100%;
+    position: absolute;
+    z-index: 2000;
+    height: 100%;
+    opacity: 0;
+    left: 0;
+    top: 0;
+}
+
+.checkbox-inline {
+    float: left;
+    margin-right: 10px;
+    padding-left: 0;
+}
+
+.checkbox-inline + p {
+    font-size: 14px;
+}
+
+.checkbox-inline input[type="checkbox"]:not(:checked),
+.checkbox-inline input[type="checkbox"]:checked {
+    position: absolute;
+    left: -9999px;
+}
+
+.checkbox-inline input[type="checkbox"]:not(:checked) + span {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #979797;
+    background: white;
+    border-radius: 2px;
+}
+
+.checkbox-inline input[type="checkbox"]:checked + span {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #3eb5e5;
+    background: #3eb5e5;
+    border-radius: 2px;
+}
+
+.checkbox-inline input[type="checkbox"]:checked + span::before {
+    content: '';
+    display: block;
+    width: 6px;
+    height: 10px;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    margin: 3px 0 0 6px;
+}
+
+.checkbox {
+    float: left;
+    background: white;
+    border: #3eb5e5 solid 1px;
+}
+
+.modal-body-html {
+    background-color: #fafafa;
+    line-height: 20px;
+    font-size: 12px;
+    padding: 16px 24px 1px 24px;
+}
+
+.modal-body-html ol {
+    padding-left: 15px;
+}
+
+.modal-body-html ol li {
+    list-style: lower-alpha;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+
+/* ---------------------------------------- SCREEN ZONE -------------------------------------------*/
+/*------------------ SCREEN ZONE should be always at the bottom of the file -----------------------*/
+/************ Mobile screen ************/
+@media screen and (max-width: 767px) {
+    .bg-rectangle {
+        background: none;
+        background-size: 100%;
+    }
+
+    .bg-rectangle.bg-rectangle-term {
+      background: url(../images/bg-term.png) no-repeat left 110px;
+      background-size: 100%;
+    }
+
+    .bg-rectangle-review,
+    .bg-rectangle-term {
+        background: url(../images/bg-rectangle-review-mobile.png) no-repeat left 110px;
+        background-size: 100%;
+    }
+
+    form {
+        background: none;
+        border-top-width: 1px;
+        max-width: 100%;
+    }
+
+    .steps {
+        height: 58px;
+    }
+
+    .step-icons {
+        margin-top: 10px;
+        width: 255px;
+    }
+
+    .step-icons .circle-icon {
+        width: 48px;
+        height: 48px;
+        background-size: contain!important;
+    }
+
+    .step-icons .step-line {
+        width: 38px;
+        height: 24px;
+    }
+
+    .step-icons .circle-icon::before {
+        width: 23px;
+        height: 23px;
+    }
+
+    .step-icons .circle-icon::after,
+    .step-icons .step-line::before {
+        top: 21px;
+        width: 5px;
+        height: 5px;
+    }
+
+    .step-content,
+    .review-page {
+        padding: 0 0 15px;
+        background: transparent;
+    }
+
+    .step-content#stepFinancial {
+        background: url(../images/bg-rectangle-mobile.png) no-repeat left 18px;
+        background-size: cover;
+        display: block;
+    }
+
+    .step-content#stepPersonalInformation {
+        background: url(../images/bg-rectangle-mobile-2.png) no-repeat left 18px;
+        background-size: cover;
+        display: block;
+    }
+
+    .step-content#stepWorkingInformation {
+        background: url(../images/bg-rectangle-mobile-3.png) no-repeat left 18px;
+        background-size: cover;
+        display: block;
+    }
+
+    .step-content h3 {
+        font-weight: bold;
+        margin: 15px 0;
+    }
+
+    .step-content#stepWorkingInformation h3 {
+        margin-bottom: 6px;
+    }
+    .step-content .calculator-box h3 {
+        margin-top: 22px;
+    }
+
+    .slide-value span {
+        font-size: 18px;
+    }
+
+    .cilian {
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+
+    .cilian span {
+        font-size: 12px;
+    }
+
+    .cilian strong {
+        font-size: 14px;
+    }
+
+    .form-group label,
+    .field-style label.valid,
+    .field-style label.focus {
+        font-size: 12px!important;
+        line-height: 18px;
+    }
+
+    .form-group label.title {
+        font-size: 14px!important;
+    }
+
+    .field-style label {
+        font-size: 16px!important;
+    }
+
+    .form-group .form-control {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .form-group .form-control.input-with-unit {
+        padding: 5px 10px 5px 23px;
+    }
+    .form-group label.gray-small-text{
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .loan-destination-mobile .form-group .form-control{
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .loan-destination-mobile .form-group h3{
+        margin-bottom: 5px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    .has-error .help-block {
+        font-size: 12px !important;
+    }
+
+    .slide-value span.help-block.with-errors {
+        font-size: 20px !important;
+    }
+
+    .calculator-box {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .btn-area {
+        margin-top: 10px;
+    }
+
+    .checkbox-inline input[type="checkbox"]:not(:checked) + span,
+    .checkbox-inline input[type="checkbox"]:checked + span
+    {
+        width: 16px;
+        height: 16px;
+    }
+
+    .checkbox-inline input[type="checkbox"]:checked + span::before {
+        width: 5px;
+        height: 9px;
+        margin: 2px 0 0 5px;
+    }
+
+    .checkbox-inline + p {
+        font-size: 12px;
+    }
+
+    span#option-list-text-span {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        font-size: 16px;
+    }
+}
+
+/************ End Mobile screen ************/
+
+/**************** Tablet ******************/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    form {
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    input#day {
+        padding: 6px 0;
+    }
+    .bg-rectangle {
+        background: url(../images/bg-rectangle.png) no-repeat left -150px;
+        background-size: 100%;
+    }
+
+    .bg-rectangle-review {
+        background: url(../images/bg-rectangle.png) no-repeat left -150px;
+        background-size: 100%;
+    }
+}
+
+/**************** End Tablet ******************/
+
+/**************** Desktop  ******************/
+@media screen and (min-width: 1025px) {
+    .bg-rectangle {
+        background: url(../images/bg-rectangle.png) no-repeat left -150px;
+        background-size: 100%;
+    }
+
+    .bg-rectangle-review {
+        background: url(../images/bg-rectangle.png) no-repeat left -150px;
+        background-size: 100%;
+    }
+}
+
+/**************** End Desktop ******************/

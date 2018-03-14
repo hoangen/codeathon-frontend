@@ -1,0 +1,26 @@
+/* Custom React style for Slider */
+
+.slide-value .has-error .help-block .error-message-small{
+	font-family: HelveticaNeue;
+    font-size: 12px;
+    margin-top: 32px;
+}
+
+.rc-slider-track,
+.rc-slider-rail {
+    background-color: #3eb5e5;
+    height: 2px;
+}
+
+.rc-slider-handle {
+    border-color: #3eb5e5;
+    height: 18px;
+    width: 18px;
+    margin-top: -9px;
+    background-color: #3eb5e5;
+}
+
+/************ Mobile screen ************/
+@media screen and (max-width: 767px) {
+    
+}

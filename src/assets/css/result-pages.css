@@ -1,0 +1,355 @@
+#wrapper {
+    background: white;
+}
+
+.background-footer {
+    background: #ece9e5;
+    height: 420px;
+}
+
+.result-pages{
+    background-image: url(../images/bg-loading.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 25px;
+    font-family: 'HelveticaNeue-Light';
+    padding-bottom: 40px;
+}
+
+#loadingPage,
+#oopsPage,
+#thankyouPage,
+#pendingPage {
+    background-image: url(../images/bg-loading.png);
+    text-align: center;
+}
+
+#thankyouPage {
+    padding-bottom: 60px;
+}
+
+#emailPage {
+    background: none;
+    padding-top: 0;
+}
+
+#emailPage .top-bg {
+    background: url(../images/bg-congrats.png) no-repeat left top;
+    background-size: cover;
+    padding-top: 30px;
+    height: 282px;
+}
+
+#emailPage .bottom-bg {
+    background: url(../images/bg-congrats-btm.png) no-repeat left top;
+    background-size: contain;
+    min-height: 214px;
+    overflow: hidden;
+    width: 100%;
+}
+
+#sorryPage {
+    background-image: url(../images/bg-sorry.png);
+    text-align: center;
+    padding-bottom: 32px;
+}
+
+#emailPage .row {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#otpPage {
+    color: #78838c;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'HelveticaNeue';
+    height: 100vh;
+}
+
+#otpPage #otp{
+    overflow: hidden;
+}
+
+#otpPage strong{
+    color: #231f20;
+}
+
+#otpPage p span{
+    font-size: 12px;
+    line-height: 14px;
+    display: block;
+}
+
+.result-pages h1 {
+    font-size: 28px;
+    margin: 12px 0;
+}
+
+.result-pages p {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.result-pages#otpPage p{
+    max-width: 292px;
+    text-align: center;
+}
+
+.result-pages#pendingPage p {
+    max-width: 400px;
+    margin: 0 auto 30px;
+}
+
+.result-pages img.loading {
+    margin: 10px 0;
+}
+
+.alert-box {
+    max-width: 310px;
+    padding:8px 12px;
+    border-radius: 6px;
+    background-color: rgba(255, 204, 0, 0.1);
+    border: solid 1px #ffcc00;
+    font-size: 14px;
+    margin: 0 auto;
+    margin: 0 auto;
+    text-align: left;
+    display: table
+}
+
+.alert-box img,
+.alert-box span {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.alert-box span {
+    padding-left: 10px;
+}
+
+#sorryPage .alert-box,
+#pendingPage .alert-box {
+    max-width: 400px;
+}
+
+.result-pages#emailPage .submit-image {
+    width: 100px;
+}
+
+.result-pages#emailPage h1 {
+    color: white;
+    font-size: 28px;
+    font-family: 'HelveticaNeue-Medium';
+    margin-bottom: 5px;
+}
+
+.result-pages#emailPage p.white-text {
+    color: white;
+    margin-bottom: 50px;
+}
+
+.result-pages#emailPage .more-info {
+    font-size: 14px;
+    max-width: 265px;
+    margin-top: 30px;
+}
+
+.result-pages#emailPage .more-info p {
+    margin-bottom: 16px;
+}
+
+.result-pages#emailPage .more-info ul li {
+    margin-bottom: 10px;
+}
+
+.result-pages#emailPage .more-info ul li:last-child {
+    letter-spacing: -0.5px;
+}
+
+.result-pages#emailPage .more-info > img {
+    margin-right: 20px;
+}
+
+.result-pages#emailPage .table-style {
+    margin-top: 124px;
+    font-size: 14px;
+    position: absolute;
+}
+
+.result-pages#emailPage .table-style strong {
+    font-size: 16px;
+}
+
+.result-pages#emailPage .disclamer {
+    display: block;
+    clear: both;
+    font-size: 12px;
+    color: #939ca3;
+    margin-top: 20px;
+    max-width: 100%;
+    padding: 25px 15px 0;
+}
+
+#tnc-hyperlink {
+    color: #3eb5e5;
+}
+
+#oopsPage.result-pages h1{
+  font-size: 28px
+}
+
+#duplication-page-alert.alert-box {
+    max-width: 400px;
+}
+
+@media screen and (max-width:767px) {
+    #loadingPage,
+    #oopsPage,
+    #thankyouPage,
+    #pendingPage,
+    #otpPage {
+        background-image: url(../images/bg-loading-mobile.png);
+    }
+
+    #emailPage .top-bg {
+        background: url(../images/bg-congrats-mobile.png) no-repeat left -60px;
+        height: 325px;
+    }
+
+    #emailPage .bottom-bg {
+        background: url(../images/bg-congrats-mobile-btm.png) no-repeat left 100px;
+        padding-top: 150px;
+        overflow: visible
+    }
+
+    #emailPage .top-bg,
+    #emailPage .bottom-bg {
+        background-size: cover;
+    }
+
+    #sorryPage {
+        background-image: url(../images/bg-sorry-mobile.png);
+    }
+
+    #thankyouPage,
+    #sorryPage {
+        padding-bottom: 25px;
+    }
+
+    #sorryPage .alert-box,
+  	#pendingPage .alert-box {
+  		max-width: 272px;
+  	}
+
+    .result-pages h1 {
+        font-size: 20px;
+        font-family: 'HelveticaNeue-Light';
+    }
+
+    .result-pages p {
+        font-size: 14px;
+        max-width: 300px;
+    }
+
+    .result-pages#emailPage p {
+        font-size: 14px;
+        max-width: 300px;
+    }
+
+    .result-pages#emailPage .more-info {
+        max-width: 300px;
+    }
+
+    .result-pages#pendingPage h1 {
+        margin-top: 25px;
+        margin-bottom: 5px;
+    }
+
+    .result-pages#pendingPage p {
+        max-width: 80%;
+        margin-bottom: 0;
+    }
+
+    .result-pages#sorryPage,
+    .result-pages#pendingPage {
+        padding:25px 15px 32px;
+    }
+
+    .result-pages#pendingPage .alert-box span {
+        letter-spacing: 0.5px;
+    }
+
+    .alert-box {
+        font-size: 12px;
+    }
+
+    .result-pages img.loading {
+        margin: 0;
+    }
+
+    #loadingPage .submit-image {
+        width: 100px;
+    }
+
+    #thankyouPage .submit-image {
+        width: 130px;
+    }
+
+    #pendingPage .submit-image {
+        width: 108px;
+    }
+
+    #sorryPage .submit-image {
+        margin:10px 0;
+        width: 140px;
+    }
+
+    .result-pages#emailPage {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .result-pages#emailPage h1 {
+        font-size: 20px;
+    }
+
+    .result-pages#emailPage .more-info {
+        margin: 15px auto 0;
+        text-align: left;
+    }
+
+    .result-pages#emailPage .more-info > img{
+        margin-bottom: 15px;
+        margin-left: -5px;
+    }
+
+    .result-pages#emailPage .table-style {
+        margin: -15px auto 0;
+        position: static;
+    }
+
+    .result-pages#emailPage .disclamer {
+        font-size: 10px;
+        max-width: 300px;
+        padding: 0;
+        text-align: left;
+    }
+
+    .table-style ul li {
+        text-align: left;
+    }
+
+    .result-pages#emailPage p.white-text {
+        margin-bottom: 35px;
+    }
+
+    #oopsPage.result-pages h1{
+      font-size: 20px
+    }
+
+    #oopsPage.result-pages {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+ }

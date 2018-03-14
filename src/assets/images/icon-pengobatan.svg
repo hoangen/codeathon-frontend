@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 52 52">
+    <g fill="none" fill-rule="evenodd">
+        <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M26.527 39.864v10"/>
+        <path fill="#FFF" d="M21.661 7.582h-5.66a4 4 0 0 0-4 4v22.236a4 4 0 0 0 4 4h21.306a4 4 0 0 0 4-4V11.582a4 4 0 0 0-4-4h-5.66"/>
+        <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21.91 7.582H16.53c-2.099 0-3.8 1.79-3.8 4v22.236c0 2.209 1.701 4 3.8 4h20.245c2.099 0 3.8-1.791 3.8-4V11.582c0-2.21-1.701-4-3.8-4h-5.379"/>
+        <path fill="#FC0" d="M33.96 11.33H19.347a2.745 2.745 0 0 0-2.744 2.744v17.252a2.744 2.744 0 0 0 2.744 2.744h4.433v3.858c0 .7.448 1.27 1 1.27h3.75c.552 0 1-.57 1-1.27V34.07h4.432a2.743 2.743 0 0 0 2.744-2.744V14.074a2.744 2.744 0 0 0-2.744-2.744"/>
+        <path fill="#FFF" d="M36.705 17.326v-3.252a2.744 2.744 0 0 0-2.744-2.744H19.346a2.743 2.743 0 0 0-2.744 2.744v3.252"/>
+        <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M36.705 17.326v-3.252a2.744 2.744 0 0 0-2.744-2.744H19.346a2.743 2.743 0 0 0-2.744 2.744v3.252"/>
+        <path fill="#FFF" d="M16.707 17.25h19.64"/>
+        <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16.707 17.25h19.64"/>
+        <path fill="#FFF" d="M29.604 45.023c0 .811-.448 1.47-1 1.47h-3.901c-.553 0-1-.659-1-1.47v-.458c0-.811.447-1.47 1-1.47h3.901c.552 0 1 .659 1 1.47v.458z"/>
+        <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M29.604 45.023c0 .811-.448 1.47-1 1.47h-3.901c-.553 0-1-.659-1-1.47v-.458c0-.811.447-1.47 1-1.47h3.901c.552 0 1 .659 1 1.47v.458zM33.96 11.33H19.347a2.745 2.745 0 0 0-2.744 2.744v17.252a2.744 2.744 0 0 0 2.744 2.744h4.433v3.858c0 .7.448 1.27 1 1.27h3.75c.552 0 1-.57 1-1.27V34.07h4.432a2.743 2.743 0 0 0 2.744-2.744V14.074a2.744 2.744 0 0 0-2.744-2.744zM26.527 8.333V5s.566-3-2.857-3h-7.068"/>
+        <g>
+            <path fill="#FFF" d="M31.371 30.607V27.31"/>
+            <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M31.371 30.607V27.31"/>
+        </g>
+        <g>
+            <path fill="#FFF" d="M33.02 28.958h-3.298"/>
+            <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M33.02 28.958h-3.298"/>
+        </g>
+    </g>
+</svg>

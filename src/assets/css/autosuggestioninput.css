@@ -1,0 +1,110 @@
+.status {
+    line-height: 52px;
+}
+
+.react-autosuggest__container {
+}
+
+.react-autosuggest__input {
+    padding: 6px 12px;
+    border:#979797 solid 1px;
+    border-radius: 2px;
+    width: 100%;
+    height: 40px;
+    line-height: 27px;
+    font-size: 18px;
+    font-family: 'HelveticaNeue';
+    background: no-repeat 98% 7px;
+}
+
+.react-autosuggest__input--focused {
+    outline: none;
+}
+
+.react-autosuggest__input--open {
+    border-radius: 0;
+}
+
+.react-autosuggest__suggestions-container {
+    display: none;
+}
+
+.react-autosuggest__suggestions-container--open {
+    display: block;
+    position: inherit;
+    top: 28px;
+    width: 100%;
+    border: 1px solid #3eb5e5;
+    border-top: none;
+    background-color: #fff;
+    font-family: 'HelveticaNeue';
+    font-weight: 300;
+    font-size: 18px;
+    border-radius: 0 0 3px 3px;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 200;
+}
+
+.form-control:focus[aria-expanded="true"]{
+    border-bottom:#ece9e5 solid 1px!important;
+    box-shadow: none;
+}
+
+.react-autosuggest__suggestions-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.react-autosuggest__suggestion {
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.react-autosuggest__suggestion--highlighted {
+    background-color: #ddd;
+}
+
+.react-autosuggest__suggestion-match {
+    color: #3eb5e5;
+}
+
+/* Customization */
+span.autosuggest-rectangle-18-copy-6 {
+    font-family: HelveticaNeue;
+	font-size: 14px;
+	text-align: center;
+	color: #78838c;
+    padding: 22px 16px;
+	width: 100%;
+	height: 64px;
+	background-color: #ffffff;
+	box-shadow: none;
+    border: solid 1px #3eb5e5;
+    border-bottom:#ece9e5 solid 1px;
+}
+
+.react-autosuggest__suggestions-list + div {
+    font-family: HelveticaNeue;
+    font-size: 18px;
+    color: #78838c;
+	text-align: center;
+	padding:0 16px 16px;
+}
+
+.icon-search{
+    position: absolute;
+    z-index: 2;
+    right: 25px;
+    top: 35px;
+}
+
+/************ Mobile screen ************/
+@media screen and (max-width:767px) {
+    .react-autosuggest__suggestions-list + div,
+    .react-autosuggest__suggestions-container--open
+    {
+        font-size: 14px;
+    }
+}

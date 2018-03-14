@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26" height="26" viewBox="0 0 26 26">
+    <defs>
+        <path id="a" d="M0 0h1024v507H0z"/>
+        <radialGradient id="b" cx="11.107%" cy="126.907%" r="107.753%" fx="11.107%" fy="126.907%" gradientTransform="scale(.529 1) rotate(19.248 .16 1.56)">
+            <stop offset="0%" stop-color="#3EB5E5"/>
+            <stop offset="100%" stop-color="#FFF"/>
+        </radialGradient>
+        <radialGradient id="d" cx="-31.977%" cy="0%" r="119.879%" fx="-31.977%" fy="0%" gradientTransform="matrix(.52385 .14235 -.07534 .98982 -.152 .046)">
+            <stop offset="0%" stop-color="#3EB5E5"/>
+            <stop offset="100%" stop-color="#3EDAE5"/>
+        </radialGradient>
+        <filter id="e" width="117.5%" height="133.1%" x="-8.8%" y="-16.6%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="10"/>
+        </filter>
+        <path id="g" d="M3 13c0 5.524 4.477 10 10 10s10-4.476 10-10c0-5.521-4.477-10-10-10S3 7.479 3 13z"/>
+        <filter id="f" width="155%" height="155%" x="-27.5%" y="-17.5%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1.5"/>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.0877490942 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(-136 -238)">
+            <mask id="c" fill="#fff">
+                <use xlink:href="#a"/>
+            </mask>
+            <path fill="url(#b)" d="M-474 104l362.01 383L250 104z" mask="url(#c)" opacity=".9" transform="matrix(1 0 0 -1 0 591)"/>
+            <path fill="url(#d)" d="M879-49l171.004 181L1221-49z" filter="url(#e)" mask="url(#c)" opacity=".2"/>
+            <path fill="#3EB5E5" d="M351 412l57.001 60L465 412z" mask="url(#c)" opacity=".1" transform="matrix(1 0 0 -1 0 884)"/>
+            <path fill="#FC0" d="M58 137l32 34 32-34z" mask="url(#c)" opacity=".2"/>
+            <path fill="#FC0" d="M996 401l26 28 26-28z" mask="url(#c)" opacity=".2" transform="matrix(1 0 0 -1 0 830)"/>
+        </g>
+        <g>
+            <use fill="#000" filter="url(#f)" xlink:href="#g"/>
+            <use fill="#FFF" xlink:href="#g"/>
+            <path stroke="#3EB5E5" stroke-width=".8" d="M3.4 13a9.6 9.6 0 0 0 9.6 9.6 9.6 9.6 0 0 0 9.6-9.6c0-5.301-4.299-9.6-9.6-9.6-5.301 0-9.6 4.299-9.6 9.6z"/>
+            <circle cx="13" cy="13" r="2" fill="#3EB5E5"/>
+        </g>
+    </g>
+</svg>

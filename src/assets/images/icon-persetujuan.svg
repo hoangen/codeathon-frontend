@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="216" height="120" viewBox="0 0 216 120">
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(53.805 18)">
+            <path stroke="#FEFEFE" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.662" d="M.367 45.506V4.019s14.416 3.167 27.121 3.167c12.706 0 37.873-6.82 51.067-6.82 13.195 0 24.435 3.166 24.435 3.166v57.977s-11.24-3.167-24.435-3.167c-3.088 0-6.832.374-10.918.946"/>
+            <text fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="15.66" font-weight="bold">
+                <tspan x="76.734" y="18.132">Rp</tspan>
+            </text>
+            <path stroke="#7BE3EF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.662" d="M10.141 48.84c3.103 0 5.62 2.51 5.62 5.603 3.563.423 7.379.688 11.051.688 12.706 0 37.873-6.82 51.067-6.82 3.904 0 7.638.277 10.959.667-.002-3.149 2.514-5.657 5.617-5.657V24.797M72.363 10.664c-7.02.667-15.789 2.337-24.174 3.82"/>
+            <ellipse cx="54.027" cy="32.886" fill="#7BE3EF" rx="7.047" ry="10.962"/>
+        </g>
+        <path fill="#3EC7E5" d="M114.88 71.244c0 16.434-13.322 29.755-29.754 29.755-16.433 0-29.755-13.321-29.755-29.755 0-16.433 13.322-29.754 29.755-29.754 16.432 0 29.754 13.32 29.754 29.754z"/>
+        <path fill="#3EB5E5" d="M74.164 36.792h20.358v-4.698H74.164z"/>
+        <path stroke="#FFF" stroke-linecap="round" stroke-width="2.286" d="M81.994 41.49v-4.698M86.692 41.49v-4.698"/>
+        <path stroke="#7BE3EF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.286" d="M63.201 49.32l-3.132-3.132M56.937 49.32l6.264-6.264"/>
+        <path stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.286" d="M55.371 71.244c0-16.433 13.322-29.754 29.755-29.754 16.432 0 29.754 13.32 29.754 29.754S101.558 101 85.126 101H60.079M74.164 36.792h20.358v-4.698H74.164zM88.036 69.678l10.962-10.962"/>
+        <path stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.286" d="M88.258 72.81a3.132 3.132 0 1 1-6.264.001 3.132 3.132 0 0 1 6.264 0z"/>
+        <path stroke="#7BE3EF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.286" d="M108.616 71.244c0 12.974-10.517 23.49-23.49 23.49"/>
+        <path stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.286" d="M67.9 90.036H45.974M21.004 101.166h32.59M124.51 86.663h11.063M116.442 92.042h11.063M58.503 86.904c-1.985-4.54-3.132-9.908-3.132-15.66M70.982 98.678a31.647 31.647 0 0 1-7.78-5.51"/>
+        <path stroke="#7BE3EF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.286" d="M49.107 82.206h-15.66"/>
+        <path stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.286" d="M71.031 69.678H42.843"/>
+    </g>
+</svg>

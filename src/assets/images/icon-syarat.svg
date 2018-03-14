@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 52 52">
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#FFF" d="M18.01 9.345V40.56h24.375V15.452l-6.77-6.107z"/>
+        <path fill="#3EB5E5" fill-rule="nonzero" d="M17.333 8.667h18.541l7.189 6.483v26.088h-25.73V8.667zm1.355 31.214h23.02V15.755l-6.353-5.731H18.688V39.88z"/>
+        <path fill="#3EB5E5" fill-rule="nonzero" d="M36.292 14.774V9.345h-1.354v6.786h7.447v-1.357z"/>
+        <path stroke="#3EB5E5" stroke-linecap="square" stroke-width=".643" d="M21.566 13.381h9.325M21.566 15.524h9.325"/>
+        <path fill="#7BE3EF" d="M22.884 35.352l-1.65 2.029h1.41l.96-1.216.958 1.216H26l-1.695-2.052 1.509-1.805H24.42l-.799 1.007-.808-1.007h-1.438z"/>
+        <g>
+            <path fill="#7BE3EF" d="M9.276 9.346h4.273v26.226L11.542 40.6l-2.32-5.273z" opacity=".5"/>
+            <path fill="#3EB5E5" fill-rule="nonzero" d="M9.765 35.226l1.752 3.986 1.49-3.732V9.856h-3.19l-.052 25.37zm4.325-26.39v26.829l-2.524 6.324-2.885-6.562.055-26.59h5.354z"/>
+        </g>
+        <path fill="#3EB5E5" fill-rule="nonzero" d="M14.522 19.81h.645v-7.286h-1.3v.695h.655z"/>
+    </g>
+</svg>
