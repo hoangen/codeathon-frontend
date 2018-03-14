@@ -2,7 +2,6 @@ import AppService from './app.service'
 
 export default class ModelService extends AppService {
     uploadModelFile (formData) {
-        debugger
         const authHeader = this.createBearerAuthRequestHeaders()
         const header = {
             ...authHeader
@@ -14,7 +13,6 @@ export default class ModelService extends AppService {
     }
 
     downloadModelFile () {
-        debugger
         const authHeader = this.createBearerAuthRequestHeaders()
         const header = {
             ...authHeader

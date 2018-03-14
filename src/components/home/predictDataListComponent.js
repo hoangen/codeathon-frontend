@@ -11,7 +11,6 @@ const mapStateToProps = (state, props) => {
 
 const PredictionDataList = ({predictDataList}) => {
     console.log("value" + predictDataList.length)
-    debugger
     return (
             <div className="row margin-bottom-10 margin-top-30">
                 <table className="table table-striped">

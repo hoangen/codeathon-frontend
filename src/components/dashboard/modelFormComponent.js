@@ -20,7 +20,6 @@ class ModelFormComponent extends React.Component {
     }
 
     handleSubmit(e) {
-        debugger
         e.preventDefault();
         var formData = new FormData();
         var file = document.getElementById("file").files[0];

@@ -12,7 +12,6 @@ class DashboardComponent extends React.Component {
     render () {
         return (
             <div id='mainContent' className='bg-rectangle'>
-
                 <ModelFormComponent/>
             </div>
         )
