@@ -73,7 +73,7 @@ const PredictionDataList = ({predictKeyList, predictDataList}) => {
     }
 
     return (
-            <div className="row margin-bottom-10 margin-top-20" style={{overflowX: 'auto'}}>
+            <div className="row margin-bottom-10 margin-top-20" style={{overflowX: 'auto', overflowY: 'auto'}}>
                 {predictKeyList.length > 0 &&
                     <a href='#' style={{paddingBottom: '10px'}} onClick={() => {
                         downloadCSV({filename: "predict-search-data.csv", stockData: predictDataList})
@@ -89,7 +89,7 @@ const PredictionDataList = ({predictKeyList, predictDataList}) => {
                     </thead>
                     <tbody>
                     {predictDataList.length > 0 && predictDataList.map((item, index) => (
-                        <tr key={index} style={{color : item.fraud >= 0.8 && 'red'}}>
+                        <tr key={index} style={{color : item.Suspicious >= 0.8 && 'red'}}>
                             {predictKeyList.map((key) => {
                                 return <td key={key + index}>{item[key]}</td>
                             })}
