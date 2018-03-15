@@ -89,7 +89,7 @@ const PredictionDataList = ({predictKeyList, predictDataList}) => {
                     </thead>
                     <tbody>
                     {predictDataList.length > 0 && predictDataList.map((item, index) => (
-                        <tr key={index} style={{color : item.Suspicious >= 0.8 && 'red'}}>
+                        <tr key={index} style={{color : item['AI Suspicion Score'] >= 0.8 && 'red'}}>
                             {predictKeyList.map((key) => {
                                 return <td key={key + index}>{item[key]}</td>
                             })}
