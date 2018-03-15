@@ -2,17 +2,18 @@ import React from 'react'
 import {connect} from 'react-redux'
 
 const mapStateToProps = (state, props) => {
+    let aiScopeName = 'AI Suspicion Score';
     let predictData = state.predictData;
     let predictDataList = predictData.dataList;
     let predictDataFirst = predictDataList && predictDataList.length > 0 ? predictDataList[0] : {}
-    let predictKeyList  = [];
+    let predictKeyList  = [aiScopeName];
     for (var key in predictDataFirst) {
-        if (predictDataFirst.hasOwnProperty(key)) {
+        if (key != aiScopeName && predictDataFirst.hasOwnProperty(key)) {
             predictKeyList.push(key);
         }
     };
     return {
-        predictKeyList : predictKeyList,
+        predictKeyList : predictKeyList.length > 1 ? predictKeyList : [],
         predictDataList: predictDataList || []
     }
 }
