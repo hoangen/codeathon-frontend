@@ -51,7 +51,6 @@ const PredictionDataList = ({predictKeyList, predictDataList}) => {
     }
 
     function downloadCSV(args) {
-        debugger
         var data, filename, link;
 
         var csv = convertArrayOfObjectsToCSV({
