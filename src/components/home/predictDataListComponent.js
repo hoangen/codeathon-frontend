@@ -73,12 +73,13 @@ const PredictionDataList = ({predictKeyList, predictDataList}) => {
     }
 
     return (
-            <div className="row margin-bottom-10 margin-top-20" style={{overflow: 'auto', maxHeight: '600px'}}>
+            <div>
                 {predictKeyList.length > 0 &&
-                    <a href='#' style={{paddingBottom: '10px'}} onClick={() => {
+                    <a href='#' style={{marginLeft: '-15px'}} onClick={() => {
                         downloadCSV({filename: "predict-search-data.csv", stockData: predictDataList})
                     }}>Download Predict Data CSV</a>
                 }
+            <div className="row margin-bottom-10 margin-top-20" style={{overflow: 'auto', maxHeight: '600px'}}>
                 <table className="table table-striped" style={{marginTop: '10px'}}>
                     <thead>
                     <tr>
@@ -98,6 +99,7 @@ const PredictionDataList = ({predictKeyList, predictDataList}) => {
                     </tbody>
                 </table>
             </div>
+        </div>
     )
 };
 
